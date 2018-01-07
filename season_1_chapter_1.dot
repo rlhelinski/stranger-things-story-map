@@ -5,6 +5,14 @@ digraph G{
     edge [dir=none]
     node [width=0.3 height=0.3 /*label=""*/]
 
+	{ node [style="invis"]
+	  edge [style="invis"]
+		epoch_1 -> epoch_2
+		epoch_2 -> epoch_3
+		epoch_3 -> epoch_4
+		epoch_4 -> epoch_5
+	}
+
     { node [colorscheme="dark28"]
         { node [color=1 label="Mike"]
         Mike_1
@@ -52,58 +60,78 @@ digraph G{
         }
     }
 
-    subgraph cluster_1 {
-        label="Wheeler Basement: D&D"
-        Mike_1
-        Dustin_1
-        Luke_1
-        Will_1
-    }
+	subgraph cluster_g_epoch_1 {
+		epoch_1
+
+		subgraph cluster_1 {
+			label="Wheeler Basement: D&D"
+			Mike_1
+			Dustin_1
+			Luke_1
+			Will_1
+		}
+	}
 
     Mike_1 -> Mike_2
     Dustin_1 -> Dustin_2
     Luke_1 -> Luke_2
     Will_1 -> Will_2
 
-    subgraph cluster_2 {
-        label="Wheeler Res.: Players Disperse"
-        Mike_2
-        Dustin_2
-        Luke_2
-        Will_2
-        Karen_2
-        Ted_2
-        Nancy_2
-    }
+	subgraph cluster_g_epoch_2 {
+		epoch_2
+
+		subgraph cluster_2 {
+			label="Wheeler Res.: Players Disperse"
+			Mike_2
+			Dustin_2
+			Luke_2
+			Will_2
+			Karen_2
+			Ted_2
+			Nancy_2
+		}
+	}
 
     Luke_2 -> Luke_3
     Dustin_2 -> Dustin_3
     Will_2 -> Will_3
 
-    subgraph cluster_3 {
-        label="Hawkins Streets: Biking Home"
-        Luke_3
-        Dustin_3
-        Will_3
-    }
+	subgraph cluster_g_epoch_3 {
+		epoch_3
+
+		subgraph cluster_3 {
+			label="Hawkins Streets: Biking Home"
+			Luke_3
+			Dustin_3
+			Will_3
+		}
+	}
 
     Will_3 -> Will_4
 
-    subgraph cluster_4 {
-        label="Byers Residence: Will Meets the Monster"
-        Will_4
-        Monster_4
-    }
+	subgraph cluster_g_epoch_4 {
+		epoch_4
+
+		subgraph cluster_4 {
+			label="Byers Residence: Will Meets the Monster"
+			Will_4
+			Monster_4
+		}
+	}
 
     Mike_2 -> Mike_5
     Luke_3 -> Luke_5
     Dustin_3 -> Dustin_5
 
-    subgraph cluster_5 {
-        label="Hawkins Middle School: Two Bullies"
-        Mike_5
-        Luke_5
-        Dustin_5
-    }
+	subgraph cluster_g_epoch_5 {
+		epoch_5
+
+		subgraph cluster_5 {
+			label="Hawkins Middle School: Two Bullies"
+			Mike_5
+			Luke_5
+			Dustin_5
+		}
+	}
 
 }
