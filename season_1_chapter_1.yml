@@ -1,0 +1,110 @@
+title: Stranger Things
+season: 1
+episode: 1
+scenes:
+- epoch 1:
+  - title: Dungeons and Dragons
+    location: Wheeler Basement
+    characters: [Mike, Dustin, Lucas, Will]
+- epoch 2:
+  - title: Players Disperse
+    location: Wheeler Residence
+    characters: [Mike, Dustin, Lucas, Will, Karen, Ted, Nancy]
+- epoch 3:
+  - title: Biking Home
+    location: Rural Hawkins
+    characters: [Lucas, Dustin, Will]
+- epoch 4:
+  - title: Will Meets the Monster
+    location: Byers Residence
+    characters: [Will, The Monster]
+- epoch 5:
+  - title: Two Bullies
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin]
+  - title: Will is Missing
+    location: Byers Residence
+    characters: [Joyce, Jonathan, Karen, Holly]
+- epoch 6:
+  - title: The Lockers
+    location: Hawkins High School
+    characters: [Nancy, Barbara]
+- epoch 7:
+  - title: Romantic Planning
+    location: Bathroom
+    characters: [Nancy, Steve]
+- epoch 8:
+  - title: Chief Arrives Late, Joyce Byers' Son is Missing
+    location: Hawkins Police Department
+    characters: [Hopper, Florence, Officer Powell, Officer Callahan, Joyce]
+- epoch 9:
+  - title: Gowning Up, Quarantine Protocol, Investigating Slime
+    location: Hawkins Lab
+    characters: [Brenner]
+  - title: Eleven Steals Food
+    location: Benny's Restaurant
+    characters: [Eleven, Benny]
+- epoch 10:
+  - title: Class Lets Out, New HAM Equipment Arrived
+    location: Hawkins Middle School
+    characters: [Mr. Clarke, Mike, Dustin, Lucas]
+- epoch 11:
+  - title: Interrogation
+    location: Hawkins Middle School
+    characters: [Hopper, Officer Powell, Mike, Dustin, Lucas]
+- epoch 12:
+  - title: Castle Byers, Flashback
+    location: Castle Byers
+    characters: [Joyce, Will, Jonathan]
+  - title: Benny Tries to Get Answers
+    location: Benny's Restaurant
+    characters: [Benny, Eleven]
+- epoch 13:
+  - title: Hopper Finds Will's Bicycle
+    location: Hawkins Woods
+    characters: [Hopper, Officer Powell, Officer Callahan]
+- epoch 14:
+  - title: Monitoring Phone Calls
+    location: Hawkins Lab
+  - title: Joyce Tries to Reach Lonnie
+    location: Byers Residence
+    characters: [Joyce, Cynthia]
+- epoch 15:
+  - title: Police Arrive with Bike, Hopper Searches Byers Residence
+    location: Byers Residence
+    characters: [Joyce, Jonathan, Hopper, Officer Powell, Officer Callahan]
+- epoch 16:
+  - title: Hopper Experiences Something in Shed, Calls for a Search
+    location: Byers Residence
+    characters: [Hopper, Officer Powell, Officer Callahan]
+- epoch 17:
+  - title: Nancy and Mike Argue, Disrupt Dinner
+    location: Wheeler Residence
+    characters: [Nancy, Mike, Karen, Ted, Holly]
+  - title: Search Party
+    location: Hawkins Woods
+    characters: [Hopper, Officer Powell, Officer Callahan, Mr. Clarke]
+- epoch 18:
+  - title: Mike Theorizes with Lucas about Will
+    location: Wheeler Residence
+    characters: [Mike, Lucas]
+  - title: Steve Crawls in Through Nancy's Window
+    location: Wheeler Residence
+    characters: [Nancy, Steve]
+  - title: Social Services Arrives Early, Benny is Shot, Eleven Escapes from Bad Men
+    location: Benny's Restaurant
+    characters: [Agent Connie Frazier, Benny, Eleven]
+- epoch 19:
+  - title: The Party Searches for Will
+    location: Hawkins Woods
+    characters: [Mike, Dustin, Lucas]
+  - title: Steve Helps Nancy Study
+    location: Wheeler Residence
+    characters: [Steve, Nancy]
+  - title: Joyce, Jonathan look for Photos of Will, Get a Strange Phone Call
+    location: Byers Residence
+    characters: [Jonathan, Nancy, Will]
+- epoch 20:
+  - title: The Party Discoveres Eleven in the Rain
+    location: Hawkins Woods
+    characters: [Mike, Dustin, Lucas, Eleven]
