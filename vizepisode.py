@@ -54,9 +54,15 @@ for filename in args.input:
                         character_key = keyify(character)+'_'+scene_key
                         character_keys[character].append(character_key)
 
+    character_definitions = Digraph()
+    character_definitions.attr('node', colorscheme='dark28')
+    character_definitions.attr('edge', colorscheme='dark28')
+    color_index = 0
     for character_name, character_key_list in character_keys.items():
         character_cluster = Digraph()
-        character_cluster.attr('node', label=character_name)
+        character_cluster.attr('node', color=str((color_index % 8) + 1), label=character_name)
+        character_cluster.attr('edge', color=str((color_index % 8) + 1))
+        color_index += 1
         last_character_key = None
         if len(character_key_list) == 1:
             character_cluster.node(character_key_list[0])
@@ -65,7 +71,8 @@ for filename in args.input:
                 if last_character_key:
                     character_cluster.edge(last_character_key, character_key)
                 last_character_key = character_key
-        dot.subgraph(character_cluster)
+        character_definitions.subgraph(character_cluster)
+    dot.subgraph(character_definitions)
 
     for epoch in episode['scenes']:
         for key, scenes in epoch.items():
