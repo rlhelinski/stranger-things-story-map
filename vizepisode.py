@@ -54,7 +54,7 @@ for filename in args.input:
                         character_key = keyify(character)+'_'+scene_key
                         character_keys[character].append(character_key)
 
-    character_definitions = Digraph()
+    character_definitions = Digraph(comment='Styles for Character Nodes')
     character_definitions.attr('node', colorscheme='dark28')
     character_definitions.attr('edge', colorscheme='dark28')
     color_index = 0
@@ -78,6 +78,7 @@ for filename in args.input:
         for key, scenes in epoch.items():
             key = keyify(key)
             epoch = Digraph(name='cluster_%s' % key)
+            epoch.node(key)
             for i, scene in enumerate(scenes):
                 scene_key = '%s_%d' % (key, i)
                 scene_cluster = Digraph(name='cluster_%s' % scene_key)
