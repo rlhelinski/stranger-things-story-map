@@ -1,3 +1,16 @@
+'''
+This script converts an episode YAML file into a GraphViz file and optionally
+renders that file with 'dot'.
+
+Example usage:
+> python vizepisode.py --render season_1_chapter_1.yml
+
+This is equivalent to:
+> python vizepisode.py season_1_chapter_1.yml
+> dot -Tsvg season_1_chapter_1.dot -o season_1_chapter_1.dot.svg
+
+'''
+
 import argparse
 import yaml
 from graphviz import Digraph
