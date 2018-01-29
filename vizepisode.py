@@ -57,7 +57,8 @@ for filename in args.input:
                         character_keys[character].append(character_key)
 
     character_definitions = Digraph(comment='Styles for Character Nodes')
-    character_definitions.attr('node', colorscheme='dark28')
+    character_definitions.attr('node', colorscheme='dark28',
+                               shape='box', style='rounded')
     character_definitions.attr('edge', colorscheme='dark28')
     color_index = 0
     for character_name, character_key_list in character_keys.items():

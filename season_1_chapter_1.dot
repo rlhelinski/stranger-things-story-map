@@ -28,7 +28,7 @@ digraph {
 	}
 	// Styles for Character Nodes
 	{
-		node [colorscheme=dark28]
+		node [colorscheme=dark28 shape=box style=rounded]
 		edge [colorscheme=dark28]
 		{
 			node [color=1 label=Ted]
