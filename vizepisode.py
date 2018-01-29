@@ -14,6 +14,7 @@ parser = argparse.ArgumentParser(
                 'and translate it to a Graphviz DOT file '
                 'which can then be rendered.')
 parser.add_argument('input', nargs='+', help='file(s) to translate')
+parser.add_argument('--render', default=False, action='store_true')
 args = parser.parse_args()
 
 for filename in args.input:
@@ -23,7 +24,8 @@ for filename in args.input:
     epoch_keys = []
     character_keys = {}
 
-    dot = Digraph(comment=episode['title'])
+    dot = Digraph(comment=episode['title'],
+                  format='svg')
     dot.attr(center='1', randir='TB')
     dot.attr('edge', dir='none')
     dot.attr('node', width='0.3', height='0.3')
@@ -90,5 +92,9 @@ for filename in args.input:
                 epoch.subgraph(scene_cluster)
             dot.subgraph(epoch)
 
-    with open(filename.replace('.yml', '.dot'), 'w') as dot_f:
-        dot_f.write(str(dot))
+    outfilename = filename.replace('.yml', '.dot')
+
+    if args.render:
+        dot.render(outfilename)
+    else:
+        dot.save(outfilename)
