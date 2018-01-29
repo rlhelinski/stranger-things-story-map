@@ -15,6 +15,7 @@ import argparse
 import yaml
 from graphviz import Digraph
 from textwrap import wrap
+import logging
 
 def keyify(name):
     return name.replace('.', '').replace(' ', '_')
@@ -35,7 +36,7 @@ args = parser.parse_args()
 
 character_map = None
 with open(args.character_file, 'r') as char_f:
-    character_map = {}
+    character_map = yaml.load(char_f)
 
 for filename in args.input:
     with open(filename, 'r') as yaml_f:
@@ -57,6 +58,9 @@ for filename in args.input:
     for epoch in episode['scenes']:
         for key in epoch.keys():
             key = keyify(key)
+            while key in epoch_keys:
+                logging.warning('Epoch "%s" already used' % key)
+                key = key+'.1'
             epoch_keys.append(key)
             #timeline.node(key)
         if last_epoch:
@@ -84,7 +88,11 @@ for filename in args.input:
     for character_name, character_key_list in character_keys.items():
         character_cluster = Digraph()
         if character_map:
-            character_name = character_map[character_name]
+            if character_name in character_map:
+                character_name = character_map[character_name]['full name']
+            else:
+                logging.warning('Character name "%s" not in character map' \
+                                % character_name)
         character_cluster.attr('node', color=str((color_index % 8) + 1),
                                label=character_name)
         character_cluster.attr('edge', color=str((color_index % 8) + 1))
@@ -103,11 +111,13 @@ for filename in args.input:
     for epoch in episode['scenes']:
         for key, scenes in epoch.items():
             key = keyify(key)
-            epoch = Digraph(name='cluster_%s' % key)
+            epoch = Digraph(name='cluster_%s' % key,
+                            graph_attr={'style': 'dotted'})
             epoch.node(key)
             for i, scene in enumerate(scenes):
                 scene_key = '%s_%d' % (key, i)
-                scene_cluster = Digraph(name='cluster_%s' % scene_key)
+                scene_cluster = Digraph(name='cluster_%s' % scene_key,
+                                        graph_attr={'style': 'solid'})
                 scene_cluster.attr(label=titlewrap('%s: %s' % (scene['location'], scene['title'])))
                 if 'characters' in scene:
                     for character in scene['characters']:
