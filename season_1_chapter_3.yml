@@ -1,0 +1,140 @@
+series: Stranger Things
+title: 'Chapter Three: Holly, Jolly'
+season: 1
+episode: 3
+scenes:
+- epoch 1:
+  - title: Barb Awakes in Upside Down with The Monster
+    location: Upside Down
+    characters: [Barb, The Monster]
+- epoch 2:
+  - title: Nancy Leaves while Steve Sleeps
+    location: Steve's House
+    characters: [Nancy, Steve]
+- epoch 3:
+  - title: Nancy Tells Karen Nothing Happened
+    location: Wheeler Residence
+    characters: [Nancy, Karen]
+- epoch 4:
+  - title: Jonathan awakes at home, Joyce tries to commune with Will
+    location: Byers Residence
+    characters: [Jonathan, Joyce]
+- epoch 5:
+  - title: The Party Plan to Search for Will at 3:15pm
+    location: Wheeler Residence
+    characters: [Mike, Lucas, Dustin, Eleven]
+- epoch 6:
+  - title: Steve Assuages Nancy, Barb is Absent from Class
+    location: Hawkins High School
+    characters: [Nancy, Steve]
+- epoch 7:
+  - title: Hawkins Police Arrive at Hawkins Lab, Try to Get In
+    location: Hawkins Lab
+    characters: [Hopper, Officer Powell, Officer Callahan]
+- epoch 8:
+  - title: Eleven Gets Bored
+    location: Wheeler Residence
+    characters: [Eleven]
+  - title: 'Flashback: Crushing Coca-Cola Can with Papa'
+    location: Hawkins Lab
+    characters: [Eleven, Brenner]
+  - title: Joyce Puts Up Christmas Lights
+    location: Byers Residence
+    characters: [Joyce]
+  - title: Searching Other End of Drain and Tapes, Lab Security is Lying
+    location: Hawkins Lab
+    characters: [Hopper, Officer Powell, Officer Callahan, Hawkins Head of Security]
+- epoch 9:
+  - title: Men in Suits Ready a Winch
+    location: Hawkins Lab
+    characters: []
+  - title: Eleven Finds Nancy's Things and Picture of Barb
+    location: Wheeler Residence
+    characters: [Eleven]
+- epoch 10:
+  - title: Nancy Asks Steve's Friends about Barb
+    location: Hawkins High School
+    characters: [Nancy, Tommy, Carol]
+  - title: The Party is Bullied
+    location: Hawkins Middle School
+    characters: [Lucas, Dustin, Mike, Troy, James]
+- epoch 11:
+  - title: Jonathan Develops Film, Caught by Student
+    # This other student may be Amy, Laurie or Becky
+    location: Hawkins High School Dark Room
+    characters: [Jonathan, HHS Student 1]
+  - title: Karen Brings Joyce Casserole, Lights Are Hung
+    location: Byers Residence
+    characters: [Karen, Joyce, Holly]
+  - title: Hopper is Chastised by Librarian and Searches for Stories on Hawkins Lab
+    location: Hawkins Library
+    characters: [Hopper, Marissa]
+- epoch 12:
+  - title: Lights Lead Holly to Will's Room, Monster Begins to Come Through Wall
+    location: Byers Residence
+    characters: [Joyce, Karen, Holly]
+- epoch 13:
+  - title: Nancy Calls Mrs. Holland to Ask About Barb
+    location: Hawkins High School, Holland Residence
+    characters: [Nancy, Mrs. Holland]
+  - title: Steve and Co. Confront Jonathan About Pictures
+    location: Hawkins High School Parking Log
+    characters: [Jonathan, Steve, Tommy, Carol, HHS Student 1]
+- epoch 14:
+  - title: Steve Drops Jonathan's Camera
+    location: Hawkins High School Parking Lot
+    characters: [Jonathan, Steve, Tommy, Carol, HHS Student 1, Nancy]
+- epoch 15:
+  - title: Eleven Waits at Power Lines at 3-1-5
+    location: Hawkins Power Lines
+    characters: [Eleven]
+- epoch 16:
+  - title: 'Flashback: Eleven Refuses to Kill Cat, Kills Guards'
+    location: Hawkins Lab
+    characters: [Eleven, Brenner]
+- epoch 17:
+  - title: The Party Arrives to Meet Eleven, Depart Together
+    location: Hawkins Power Lines
+    characters: [Eleven, Mike, Lucas, Dustin]
+  - title: Steve & Friends Joke Around, Nancy Leaves
+    location: Hawkins High School
+    characters: [Steve, Nancy, Tommy, Carol, HHS Student 1]
+- epoch 18:
+  - title: Mike Explains His Wound to Eleven 
+    location: Hawkins Woods
+    characters: [Mike, Eleven]
+  - title: Nancy Finds Barb's Car, Search Pool and Encounters The Monster
+    location: Steve's Place
+    characters: [Nancy, The Monster]
+  - title: Will Communicates with Joyce
+    location: Byers Residence
+    characters: [Joyce, Will]
+  - title: Nancy Tells Karen Something Happened to Barb
+    location: Wheeler Residence
+    characters: [Nancy, Karen]
+  - title: Hawkins Police Discuss Hawkins Lab, Brenner, LSD and Conspiracies
+    location: Hawkins Library
+    characters: [Hopper, Officer Powell, Officer Callahan]
+- epoch 19:
+  - title: Eleven Tells The Party Will is Hiding, They Are Interrupted by Hawkins Police Response
+    location: Byers Residence Exterior
+    characters: [Eleven, Lucas, Dustin, Mike]
+  - title: Will and Joyce Communicate, The Monster Comes Through the Wall
+    location: Byers Residence
+    characters: [Will, Joyce, The Monster]
+- epoch 20:
+  - title: Hawkins and State Police Recover a Body
+    location: Hawkins Quarry
+    characters: [Hopper,
+                 Officer Powell,
+                 Officer Callahan,
+                 O'Bannon,
+                 Lucas, Dustin, Mike, Eleven]
+- epoch 21:
+  - title: Jonathan find Joyce Running Down Road, Police Approach
+    location: Hawkins Woods
+    characters: [Joyce, Jonathan]
+- epoch 22:
+  - title: Mike Arrives at Home Upset, Karen Comforts
+    location: Wheeler Residence
+    characters: [Mike, Nancy, Karen, Ted]

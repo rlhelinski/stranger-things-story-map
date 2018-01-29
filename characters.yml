@@ -1,3 +1,6 @@
+# This file maps the shorthand names we use to specific characters
+# Reference:
+# http://www.imdb.com/title/tt4574334/fullcredits
 Joyce:
     full name: Joyce Byers
     played by: Winona Ryder
@@ -28,13 +31,51 @@ Karen:
 Steve:
     full name: Steve Harrington
     played by: Joe Keery
+Barb:
+    full name: Barbara Holland
+    played by: Shannon Purser
 Will:
     full name: Will Byers
     played by: Noah Schnapp
+The Monster:
+    full name: The Monster
+    played by: Mark Steger
 Ted:
     full name: Ted Wheeler
     played by: Joe Chrest
 Brenner:
     full name: Dr. Martin Brenner
     played by: Matthew Modine
-
+Officer Powell:
+    full name: Officer Powell
+    played by: Rob Morgan
+Officer Callahan:
+    full name: Officer Callahan
+    played by: John Reynolds
+Hawkins Head of Security:
+    full name: Hawkins Head of Security
+    played by: Pete Burris
+Tommy:
+    full name: Tommy H.
+    played by: Chester Rushing
+Carol:
+    full name: Carol
+    played by: Chelsea Talmadge
+Troy:
+    full name: Troy
+    played by: Peyton Wich
+James:
+    full name: James
+    played by: Cade Jones
+Holly:
+    full name: Holly Wheeler
+    played by: Tinsley Price
+Marissa:
+    full name: Marissa
+    played by: Christi Waldon
+Mrs. Holland:
+    full name: Marsha Holland
+    played by: Cynthia Barrett
+O'Bannon:
+    full name: State Trooper O'Bannon
+    played by: Ron Roggé
