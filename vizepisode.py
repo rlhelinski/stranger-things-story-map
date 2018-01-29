@@ -27,8 +27,15 @@ parser = argparse.ArgumentParser(
                 'and translate it to a Graphviz DOT file '
                 'which can then be rendered.')
 parser.add_argument('input', nargs='+', help='file(s) to translate')
+parser.add_argument('--character-file', nargs=1,
+                    default='characters.yml',
+                    help='character reference file')
 parser.add_argument('--render', default=False, action='store_true')
 args = parser.parse_args()
+
+character_map = None
+with open(args.character_file, 'r') as char_f:
+    character_map = {}
 
 for filename in args.input:
     with open(filename, 'r') as yaml_f:
@@ -76,7 +83,10 @@ for filename in args.input:
     color_index = 0
     for character_name, character_key_list in character_keys.items():
         character_cluster = Digraph()
-        character_cluster.attr('node', color=str((color_index % 8) + 1), label=character_name)
+        if character_map:
+            character_name = character_map[character_name]
+        character_cluster.attr('node', color=str((color_index % 8) + 1),
+                               label=character_name)
         character_cluster.attr('edge', color=str((color_index % 8) + 1))
         color_index += 1
         last_character_key = None
