@@ -1,0 +1,135 @@
+series: Stranger Things
+title: 'Chapter Five: The Flea and the Acrobat'
+season: 1
+episode: 5
+scenes:
+- epoch 1:
+  - title: Hopper Sneaks into Lab
+    location: Hawkins Lab
+    characters: [Hopper]
+  - title: Lonnie Tries to Comfort Joyce
+    location: Byers Residence
+    characters: [Lonnie, Joyce]
+- epoch 2:
+  - title: Hopper Looks for Will
+    location: Hawkins Lab
+    characters: [Hopper]
+  - title: Deciphering Will's Radio Message, Conceive the Upside Down
+    location: Wheeler Residence
+    characters: [Lucas, Dustin, Mike, Eleven]
+- epoch 3:
+  - title: Hopper Evades MPs
+    location: Hawkins Lab
+    characters: [Hopper]
+  - title: Definition of Veil of Shadows
+    location: Wheeler Residence
+    characters: [Lucas, Dustin, Mike, Eleven]
+- epoch 4:
+  - title: Hopper Finds Portal
+    location: Hawkins Lab
+    characters: [Hopper]
+  - title: Eleven Doesn't Know How to Get There
+    location: Wheeler Residence
+    characters: [Lucas, Dustin, Mike, Eleven]
+- epoch 5:
+  - title: Hopper Apprehended
+    location: Hawkins Lab
+    characters: [Hopper]
+- epoch 6:
+  - title: Jonathan Comes Home to Joyce & Lonnie
+    location: Byers Residence
+    characters: [Jonathan, Joyce, Lonnie]
+  - title: Dad Helps Mike, Karen Helps Nancy Get Dressed
+    location: Wheeler Residence
+    characters: [Ted, Mike, Karen, Nancy]
+  - title: Dog Looks for Will
+    location: Byers Residence
+    characters: []
+- epoch 7:
+  - title: Jonathan and Lonnie Get Dressed, Joyce Doesn't Want to Go
+    location: Byers Residence
+    characters: [Jonathan, Lonnie, Joyce]
+- epoch 8:
+  - location: Graveyard
+    title: Funeral for Will Byers
+    characters: [Joyce, Jonathan, Lonnie, Lucas, Erica, Mrs. Sinclair, Mr. Sinclair, Dustin, Mike, Karen, Ted]
+  - title: Hopper Wakes Up at Home Surrounded by Pills & Empty Bottles, Finds a Bug
+    location: Hopper's Trailer
+    characters: [Hopper]
+- epoch 9:
+  - title: Jonathan and Nancy Map Things Out, Plan Attack
+    location: Graveyard
+    characters: [Jonathan, Nancy]
+  - title: Undercover Repairman Inspects Damage
+    location: Hawkins Middle School AV Room
+    characters: [Agent Repairman]
+  - location: Banquet Hall
+    title: The Party Asks Mr. Clarke About Parallel Universes
+    characters: [Mr. Clarke, Dustin, Mike, Lucas]
+  - location: Hopper's Trailer
+    characters: [Hopper, Officer Powell, Officer Callahan]
+    title: Powell and Callahan Check on the Chief, Inform Him that Some Hunters are Missing and the State Police Found Barb's Car at a Bus Station
+- epoch 10:
+  - title: Lonnie Repairs Wall, Joyce Protests
+    characters: [Lonnie, Joyce]
+    location: Byers Residence
+  - location: Wheeler Residence
+    title: The Party Ask Eleven About the Upside Down, Explain Gate, Discover Compass Anomaly
+    characters: [Mike, Lucas, Dustin, Eleven]
+- epoch 11:
+  - location: Byers Residence
+    title: Joyce Discovers Lonnie's Real Motive
+    characters: [Lonnie, Joyce]
+  - location: Wheeler Residence
+    title: Nancy Swings Bat, Steve Apologizes
+    characters: [Nancy, Steve]
+- epoch 12:
+  - location: Byers Residence
+    title: Joyce Confronts Lonnie about Money
+    characters: [Joyce, Lonnie]
+  - location: Hawkins Woods
+    title: Jonathan Target Practices with Nancy, Discuss Families
+    characters: [Jonathan, Nancy]
+  - location: Hopper's Trailer
+    title: Hopper Calls Ex, Reminisces
+    characters: [Hopper, Diane]
+  - title: The Party and Eleven Follow Compasses Down Tracks
+    location: Hawkins Railroad Tracks
+    characters: [Lucas, Dustin, Mike, Eleven]
+- epoch 13:
+  - title: 'Flashback: Papa & Eleven Go to the Bath'
+    location: Hawkins Lab
+    characters: [Brenner, Eleven]
+- epoch 14:
+  - title: Eleven Asks Mike to Turn Back
+    location: Hawkins Railroad Tracks
+    characters: [Mike, Eleven]
+  - title: Nancy and Jonathan Discuss Impression of Picture
+    location: Hawkins Woods
+    characters: [Nancy, Jonathan]
+  - title: Hopper Arrives to Talk to Joyce
+    location: Byers Residence
+    characters: [Nancy, Hopper]
+- epoch 15:
+  - location: Junkyard
+    title: The Party Realize the compasses are Leading Them Back Home
+    characters: [Mike, Dustin, Lucas, Eleven]
+  - location: Byers Residence
+    title: Hopper Tells Joyce his Place was bugged, Will's Body Was a Fake and Joyce was Right
+    characters: [Hopper, Joyce]
+- epoch 16:
+  - location: Junkyard
+    title: Arguing about Eleven's Itentions, Lucas and Mike Fight, Eleven Tries to Break it Up
+    characters: [Lucas, Mike, Dustin, Eleven]
+- epoch 17:
+  - location: Upside Down
+    title: 'Flashback: Eleven Observes Man Speaking Russian, Papa can Hear, The Monster Appears'
+    characters: [Eleven, The Monster]
+- epoch 18:
+  - location: Junkyard
+    title: Dustin & Mike Revive Lucas, Eleven Disappears
+    characters: [Dustin, Mike, Lucas, Eleven]
+- epoch 19:
+  - location: Hawkins Woods
+    title: Jonathan and Nancy Pursue The Monster in the Dark, Nancy Enters the Upside Down through a Tree
+    characters: [Jonathan, Nancy, The Monster]
