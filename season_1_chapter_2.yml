@@ -3,10 +3,12 @@ title: 'Chapter Two: The Weirdo on Maple Street'
 season: 1
 episode: 1
 scenes:
+
 - epoch 1:
   - title: Invitation to Stay
     location: Wheeler Basement
     characters: [Mike, Dustin, Lucas, Eleven] 
+
 - epoch 2:
   - title: Hopper Questions Joyce
     location: Byers Residence
@@ -14,50 +16,116 @@ scenes:
   - title: Breakfast and Eggos
     location: Wheeler Residence
     characters: [Mike, Nancy, Karen, Ted, Eleven]
+
 - epoch 3:
   - title: Brenner Listens to a Phone Recording
     location: Hawkins Lab
     characters: [Brenner]
+
 - epoch 4:
   - title: Search Party
     location: Hawkins Woods
     characters: [Hopper, Officer Powell, Officer Callahan]
+
 - epoch 5:
   - title: Jonathan Hangs Up Flyers
     location: Hawkins High School
-    characters: [Barbara, Nancy, Steve, Tommy, Carol, Jonathan]
+    characters: [Barb, Nancy, Steve, Tommy, Carol, Jonathan]
   - title: Lucas and Dustin Discuss Eleven
     location: Hawkins Middle School
     characters: [Lucas, Dustin] 
+
 - epoch 6:
   - title: La-Z-Boy
     location: Wheeler Residence
     characters: [Mike, Eleven]
+
 - epoch 7:
   - title: Jonathan Drives to Indianapolis
     location: On the Road
     characters: [Jonathan]
-- epoch 8:
   - title: 'Flashback: The Clash'
     location: Byers Residence
     characters: [Jonathan, Will, Joyce, Lonnie]
-- epoch 9:
+
+- epoch 8:
   - title: Advance Pay
     location: Store
     characters: [Joyce]
-- epoch 10:
+
+- epoch 9:
   - title: Searching the Byers' House
     location: Byers Residence
     characters: [Agent Repairman]
-- epoch 11:
-  - title: Hiding in the Closet
+
+- epoch 10:
+  - title: Fun New Things, Hiding in the Closet
     location: Wheeler Residence
-    characters: [Mike, Eleven, Karen]
-- epoch 12:
+    characters: [Mike, Eleven, Karen, Holly]
   - title: 'Flashback: Solitary Confinement'
     location: Hawkins Lab
     characters: [Eleven]
-- epoch 13:
+
+- epoch 11:
   - title: Waiting for a Call
     location: Byers Residence
     characters: [Joyce]
+    
+- epoch 12:
+  - title: Search Party
+    location: Hawkins Quarry
+    characters: [Hopper, Officer Powell, Officer Callahan]
+
+- epoch 13:
+  - title: Murder at Benny's Burgers
+    location: Benny's Burgers
+    characters: [Hopper, Officer Powell, Officer Callahan]
+    
+- epoch 14:
+  - title: Jon Confronts Lonnie
+    location: Lonnie's House
+    characters: [Jonathan, Lonnie, Cynthia]
+    
+- epoch 15:
+  - title: Trio Questions Eleven
+    location: Wheeler Residence
+    characters: [Lucas, Dustin, Mike, Eleven]
+    
+- epoch 16:
+  - title: Hopper Questions Townsperson
+    location: Hawkins Police Department
+    characters: [Hopper, Officer Callahan]
+    
+- epoch 17:
+  - title: Nancy Phones Barb, Wheelers at Dinner
+    location: Wheeler Residence
+    characters: [Nancy, Karen, Ted, Mike, Dustin, Lucas, Holly]
+    
+- epoch 18:
+  - title: Search Party
+    location: Hawkins Woods
+    characters: [Hopper, Officer Powell, Officer Callahan, Mr. Clarke]
+
+- epoch 19:
+  - title: Eleven and Trio Think About Will
+    location: Wheeler Basement
+    characters: [Eleven, Mike, Dustin, Lucas]
+  - title: Nancy and Barb in Car
+    location: Harrington Residence
+    characters: [Nancy, Barb]
+  - title: Hopper and Lady Friend
+    location: Hopper Residence
+    characters: [Hopper]
+
+- epoch 20:
+  - title: Jonathan the Voyeur, Steve's Party
+    location: Harrington Residence
+    characters: [Jonathan, Steve, Nancy, Barb, Tommy, Carol]
+    
+- epoch 21:
+  - title: Joyce Encounters the Demagorgon
+    location: Byers Residence
+    characters: [Joyce, The Monster]
+
+    
+    
