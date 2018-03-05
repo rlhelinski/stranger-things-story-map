@@ -1,0 +1,125 @@
+series: Stranger Things
+title: 'Chapter Four: The Body'
+season: 1
+episode: 4
+scenes:
+
+- epoch 1:
+  - title: Talking About Will
+    location: Byers Residence
+    characters: [Joyce, Jonathan, Officer Callahan, Hopper, Officer Powell] 
+
+- epoch 2:
+  - title: Wheelers Watching the News
+    location: Wheeler Residence
+    characters: [Karen, Ted]
+  - title: Eleven Reaches Will on the Radio
+    location: Wheeler Basement
+    characters: [Mike, Eleven]
+    
+- epoch 3:
+  - title: Joyce and Jonathan at Home
+    location: Byers Residence
+    characters: [Joyce, Jonathan]
+
+- epoch 4:
+  - title: Mike and Lucas on the Radio
+    location: Byers Residence
+    characters: [Mike, Karen, Lucas]
+
+- epoch 5:
+  - title: Not My Son
+    location: Coroner's Office
+    characters: [Joyce, Hopper, Jonathan]
+ 
+- epoch 6:
+  - title: Nancy and Steve at School
+    location: Hawkins High School
+    characters: [Nancy, Steve]
+
+- epoch 7:
+  - title: Jonathan and Joyce Argue
+    location: Town of Hawkins
+    characters: [Jonathan, Joyce]
+
+- epoch 8:
+  - title: Eleven Gets a Makeover
+    location: Wheeler Residence
+    characters: [Mike, Dustin, Lucas, Eleven]
+
+- epoch 9:
+  - title: Brenner Oversees an Expedition
+    location: Hawkins Lab
+    characters: [Brenner]
+
+- epoch 10:
+  - title: Questions about Barb
+    location: Hawkins High School
+    characters: [Nancy, Karen, Officer Powell, Officer Callahan]
+
+- epoch 11:
+  - title: Hopper Interviews the Coroner
+    location: Hawkins Police Department
+    characters: [Hopper, Coroner]
+    
+- epoch 12:
+  - title: Caught in the Hallway
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven, Mr. Clarke]
+  - title: Nancy Argues with Mom, Studies the Photo
+    location: Wheeler Residence
+    characters: [Nancy, Karen]
+  - title: Death on the Expedition
+    location: Hawkins Lab
+    characters: [Brenner]
+  - title: Assembly, Mike Confronts Troy
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven, Troy, James]
+
+- epoch 13:
+  - title: Nancy Asks Jonathan about the Photo
+    location: Funeral Home
+    characters: [Jonathan, Nancy]
+       
+- epoch 14:
+  - title: Violent Interrogation
+    location: Hideaway Bar
+    characters: [Hopper, State Patrolman]
+    
+- epoch 15:
+  - title: Joyce at Home
+    location: Byers Residence
+    characters: [Joyce]
+  - title: Contacting Will
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven]
+  - title: "Flashback: Finding the Man in the Picture"
+    location: Hawkins Lab
+    characters: [Eleven, Brenner]
+  - title: Will in the Wall
+    location: Byers Residence
+    characters: [Joyce, Will]
+    
+- epoch 16:
+  - title: Darkroom
+    location: Hawkins High School
+    characters: [Nancy, Jonathan]
+    
+- epoch 17:
+  - title: Hopper Discovers the Fake
+    location: Coroner's Office
+    characters: [Hopper]
+        
+- epoch 18:
+  - title: Joyce and Lonnie
+    location: Byers Residence
+    characters: [Joyce, Lonnie]
+
+- epoch 19:
+  - title: Hopper Cuts the Fence
+    location: Hawkins Lab
+    characters: [Hopper]
+
+
+    
+    
