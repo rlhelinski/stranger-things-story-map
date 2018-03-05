@@ -1,0 +1,94 @@
+series: Stranger Things
+title: 'Chapter Seven: The Bathtub'
+season: 1
+episode: 7
+scenes:
+- epoch 1:
+  - title: The Bad Men Are Coming
+    location: Wheeler Residence
+    characters: [Eleven, Mike, Dustin]
+  - title: Lucas Riding Bike
+    location: Hawkins
+    characters: [Lucas]
+- epoch 2:
+  - title: "Mike Interrupts Karen's Phone Call"
+    location: Wheeler Residence
+    characters: [Mike, Karen]
+- epoch 3:
+  - title: Three Escape
+    location: Wheeler Residence, Outside
+    characters: [Eleven, Mike, Dustin, Brenner]
+- epoch 4:
+  - title: Lucas Meets Up with Escapees, Eleven Flips a Van Into the Air
+    location: Hawkins, Residential Area
+    characters: [Lucas, Eleven, Mike, Dustin]
+- epoch 5:
+  - title: Lucas Makes Up to Mike
+    location: Junkyard
+    characters: [Mike, Dustin, Lucas, Eleven]
+  - title: Joyce & Hopper join Jonathan and Nancy at the Police Station
+    location: Hawkins Police Station
+    characters: [Joyce, Hopper, Jonathan, Nancy, Officer Powell, Officer Callahan]
+  - title: Karen Checks Basement, Ted & Karen Answer Door to Hawkins Personnel, Brenner Interrogates
+    location: Wheeler Residence
+    characters: [Karen, Ted, Brenner, Agent Frazier]
+- epoch 6:
+  - title: Planning Entrance to Lab & Hiding in Old Bus from Helicopter
+    location: Junkyard
+    characters: [Mike, Dustin, Lucas, Eleven]
+  - title: Hopper & Joyce Question Jon & Nancy, Troy and Troy's Mom Complain to Powell & Callahan, Flo Looks On
+    location: Hawkins Police Station
+    characters: [Hopper, Joyce, Jonathan, Nancy, Troy, Troy's Mom, Florence]
+- epoch 7:
+  - title: Tommy and Carol Argue with Steve, Steve Drives Off
+    location: Hawkins Convenience Store Parking Lot
+    characters: [Steve, Tommy, Carol]
+- epoch 8:
+  - title: Hopper, Nancy, Joyce & Jon Look On? Drive to Byers House?
+    location: Wheeler Residence
+    characters: [Hopper, Nancy, Joyce, Jonathan]
+- epoch 9:
+  - title: Nancy Radios Mike
+    location: Wheeler Residence
+    characters: [Hopper, Nancy, Joyce, Jonathan]
+  - title: Mike is Afraid to Answer
+    location: Junkyard
+    characters: [Mike, Lucas, Dustin, Eleven]
+  - title: Steve Helps Clean Off Graffiti at Movie Theater
+    location: Hawkins Downtown
+    characters: [Steve, Movie Theater Manager]
+  - title: Ted and Karen Speculate
+    location: Wheeler Residence
+    characters: [Ted, Karen]
+- epoch 10:
+  - title: Men with Stun Guns Appear, Hopper Knocks Them Out and Rescues Kids
+    location: Junkyard
+    characters: [Hopper, Eleven, Lucas, Mike, Dustin]
+  - title: Eleven Tries to Find Barb & Will
+    location: Byers Residence
+    characters: [Hopper, Joyce, Eleven, Mike, Dustin, Lucas, Nancy, Jonathan]
+- epoch 11:
+  - title: Dustin Gets Instructions for Sensory Deprivation Tank
+    location: Byers Residence
+    characters: [Dustin]
+  - title: Mr. Clarke Answers Phone While Entertaining a Girl
+    location: Clarke Residence
+    characters: [Mr. Clarke, Jen]
+- epoch 12:
+  - title: The Bathtub is Prepared
+    location: Hawkins Middle School
+    characters: [Hopper, Joyce, Eleven, Mike, Dustin, Lucas, Nancy, Jonathan]
+- epoch 13:
+  - title: Eleven Finds Barb Dead and Encounters Will
+    location: Upside Down
+    characters: [Eleven, Barb, Will]
+- epoch 14:
+  - title: Jonathan & Nancy Get Their Traps from the Police Station
+    location: Hawkins Police Station
+    characters: [Jonathan, Nancy]
+  - title: Hopper and Joyce are Apprehended at the Labs
+    location: Hawkins Lab
+    characters: [Hopper, Joyce]
+  - title: Will is Attacked by The Monster
+    location: Upside Down
+    characters: [Will, The Monster]
