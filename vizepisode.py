@@ -89,7 +89,11 @@ for filename in args.input:
         character_cluster = Digraph()
         if character_map:
             if character_name in character_map:
-                character_name = character_map[character_name]['full name']
+                if 'full name' in character_map[character_name]:
+                    character_name = character_map[character_name]['full name']
+                else:
+                    logging.warning('No full name for character "%s"' % \
+                                    character_name)
             else:
                 logging.warning('Character name "%s" not in character map' \
                                 % character_name)

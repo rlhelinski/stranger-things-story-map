@@ -1,0 +1,485 @@
+// Chapter Seven: The Bathtub
+digraph {
+	center=1 randir=TB
+	edge [dir=none]
+	node [height=0.3 width=0.3]
+	subgraph timeline {
+		node [label="" style=invis]
+		edge [style=invis]
+		epoch_1 -> epoch_2
+		epoch_2 -> epoch_3
+		epoch_3 -> epoch_4
+		epoch_4 -> epoch_5
+		epoch_5 -> epoch_6
+		epoch_6 -> epoch_7
+		epoch_7 -> epoch_8
+		epoch_8 -> epoch_9
+		epoch_9 -> epoch_10
+		epoch_10 -> epoch_11
+		epoch_11 -> epoch_12
+		epoch_12 -> epoch_13
+		epoch_13 -> epoch_14
+	}
+	// Styles for Character Nodes
+	{
+		node [colorscheme=dark28 shape=box style=rounded]
+		edge [colorscheme=dark28]
+		{
+			node [color=1 label="Nancy Wheeler"]
+			edge [color=1]
+			Nancy_epoch_5_1 -> Nancy_epoch_6_1
+			Nancy_epoch_6_1 -> Nancy_epoch_8_0
+			Nancy_epoch_8_0 -> Nancy_epoch_9_0
+			Nancy_epoch_9_0 -> Nancy_epoch_10_1
+			Nancy_epoch_10_1 -> Nancy_epoch_12_0
+			Nancy_epoch_12_0 -> Nancy_epoch_14_0
+		}
+		{
+			node [color=2 label="Ted Wheeler"]
+			edge [color=2]
+			Ted_epoch_5_2 -> Ted_epoch_9_3
+		}
+		{
+			node [color=3 label=Eleven]
+			edge [color=3]
+			Eleven_epoch_1_0 -> Eleven_epoch_3_0
+			Eleven_epoch_3_0 -> Eleven_epoch_4_0
+			Eleven_epoch_4_0 -> Eleven_epoch_5_0
+			Eleven_epoch_5_0 -> Eleven_epoch_6_0
+			Eleven_epoch_6_0 -> Eleven_epoch_9_1
+			Eleven_epoch_9_1 -> Eleven_epoch_10_0
+			Eleven_epoch_10_0 -> Eleven_epoch_10_1
+			Eleven_epoch_10_1 -> Eleven_epoch_12_0
+			Eleven_epoch_12_0 -> Eleven_epoch_13_0
+		}
+		{
+			node [color=4 label="Jonathan Byers"]
+			edge [color=4]
+			Jonathan_epoch_5_1 -> Jonathan_epoch_6_1
+			Jonathan_epoch_6_1 -> Jonathan_epoch_8_0
+			Jonathan_epoch_8_0 -> Jonathan_epoch_9_0
+			Jonathan_epoch_9_0 -> Jonathan_epoch_10_1
+			Jonathan_epoch_10_1 -> Jonathan_epoch_12_0
+			Jonathan_epoch_12_0 -> Jonathan_epoch_14_0
+		}
+		{
+			node [color=5 label=Jen]
+			edge [color=5]
+			Jen_epoch_11_1
+		}
+		{
+			node [color=6 label=Troy]
+			edge [color=6]
+			Troy_epoch_6_1
+		}
+		{
+			node [color=7 label="Movie Theater Manager"]
+			edge [color=7]
+			Movie_Theater_Manager_epoch_9_2
+		}
+		{
+			node [color=8 label="Mike Wheeler"]
+			edge [color=8]
+			Mike_epoch_1_0 -> Mike_epoch_2_0
+			Mike_epoch_2_0 -> Mike_epoch_3_0
+			Mike_epoch_3_0 -> Mike_epoch_4_0
+			Mike_epoch_4_0 -> Mike_epoch_5_0
+			Mike_epoch_5_0 -> Mike_epoch_6_0
+			Mike_epoch_6_0 -> Mike_epoch_9_1
+			Mike_epoch_9_1 -> Mike_epoch_10_0
+			Mike_epoch_10_0 -> Mike_epoch_10_1
+			Mike_epoch_10_1 -> Mike_epoch_12_0
+		}
+		{
+			node [color=1 label="Officer Callahan"]
+			edge [color=1]
+			Officer_Callahan_epoch_5_1
+		}
+		{
+			node [color=2 label="Agent Connie Frazier"]
+			edge [color=2]
+			Agent_Frazier_epoch_5_2
+		}
+		{
+			node [color=3 label=Carol]
+			edge [color=3]
+			Carol_epoch_7_0
+		}
+		{
+			node [color=4 label="Dustin Henderson"]
+			edge [color=4]
+			Dustin_epoch_1_0 -> Dustin_epoch_3_0
+			Dustin_epoch_3_0 -> Dustin_epoch_4_0
+			Dustin_epoch_4_0 -> Dustin_epoch_5_0
+			Dustin_epoch_5_0 -> Dustin_epoch_6_0
+			Dustin_epoch_6_0 -> Dustin_epoch_9_1
+			Dustin_epoch_9_1 -> Dustin_epoch_10_0
+			Dustin_epoch_10_0 -> Dustin_epoch_10_1
+			Dustin_epoch_10_1 -> Dustin_epoch_11_0
+			Dustin_epoch_11_0 -> Dustin_epoch_12_0
+		}
+		{
+			node [color=5 label="Lucas Sinclair"]
+			edge [color=5]
+			Lucas_epoch_1_1 -> Lucas_epoch_4_0
+			Lucas_epoch_4_0 -> Lucas_epoch_5_0
+			Lucas_epoch_5_0 -> Lucas_epoch_6_0
+			Lucas_epoch_6_0 -> Lucas_epoch_9_1
+			Lucas_epoch_9_1 -> Lucas_epoch_10_0
+			Lucas_epoch_10_0 -> Lucas_epoch_10_1
+			Lucas_epoch_10_1 -> Lucas_epoch_12_0
+		}
+		{
+			node [color=6 label="Tommy H."]
+			edge [color=6]
+			Tommy_epoch_7_0
+		}
+		{
+			node [color=7 label="Will Byers"]
+			edge [color=7]
+			Will_epoch_13_0 -> Will_epoch_14_2
+		}
+		{
+			node [color=8 label="Troy's Mom"]
+			edge [color=8]
+			"Troy's_Mom_epoch_6_1"
+		}
+		{
+			node [color=1 label="Mr. Clarke"]
+			edge [color=1]
+			Mr_Clarke_epoch_11_1
+		}
+		{
+			node [color=2 label=Florence]
+			edge [color=2]
+			Flo_epoch_6_1
+		}
+		{
+			node [color=3 label="Dr. Martin Brenner"]
+			edge [color=3]
+			Brenner_epoch_3_0 -> Brenner_epoch_5_2
+		}
+		{
+			node [color=4 label="Jim Hopper"]
+			edge [color=4]
+			Hopper_epoch_5_1 -> Hopper_epoch_6_1
+			Hopper_epoch_6_1 -> Hopper_epoch_8_0
+			Hopper_epoch_8_0 -> Hopper_epoch_9_0
+			Hopper_epoch_9_0 -> Hopper_epoch_10_0
+			Hopper_epoch_10_0 -> Hopper_epoch_10_1
+			Hopper_epoch_10_1 -> Hopper_epoch_12_0
+			Hopper_epoch_12_0 -> Hopper_epoch_14_1
+		}
+		{
+			node [color=5 label="Steve Harrington"]
+			edge [color=5]
+			Steve_epoch_7_0 -> Steve_epoch_9_2
+		}
+		{
+			node [color=6 label="Karen Wheeler"]
+			edge [color=6]
+			Karen_epoch_2_0 -> Karen_epoch_5_2
+			Karen_epoch_5_2 -> Karen_epoch_9_3
+		}
+		{
+			node [color=7 label="Barbara Holland"]
+			edge [color=7]
+			Barb_epoch_13_0
+		}
+		{
+			node [color=8 label="The Monster"]
+			edge [color=8]
+			The_Monster_epoch_14_2
+		}
+		{
+			node [color=1 label="Joyce Byers"]
+			edge [color=1]
+			Joyce_epoch_5_1 -> Joyce_epoch_6_1
+			Joyce_epoch_6_1 -> Joyce_epoch_8_0
+			Joyce_epoch_8_0 -> Joyce_epoch_9_0
+			Joyce_epoch_9_0 -> Joyce_epoch_10_1
+			Joyce_epoch_10_1 -> Joyce_epoch_12_0
+			Joyce_epoch_12_0 -> Joyce_epoch_14_1
+		}
+		{
+			node [color=2 label="Officer Powell"]
+			edge [color=2]
+			Officer_Powell_epoch_5_1
+		}
+	}
+	subgraph cluster_epoch_1 {
+		graph [style=dotted]
+		epoch_1
+		subgraph cluster_epoch_1_0 {
+			graph [style=solid]
+			label="Wheeler Residence: The Bad Men Are
+Coming"
+			Eleven_epoch_1_0
+			Mike_epoch_1_0
+			Dustin_epoch_1_0
+		}
+		subgraph cluster_epoch_1_1 {
+			graph [style=solid]
+			label="Hawkins: Lucas Riding Bike"
+			Lucas_epoch_1_1
+		}
+	}
+	subgraph cluster_epoch_2 {
+		graph [style=dotted]
+		epoch_2
+		subgraph cluster_epoch_2_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Mike Interrupts
+Karen's Phone Call"
+			Mike_epoch_2_0
+			Karen_epoch_2_0
+		}
+	}
+	subgraph cluster_epoch_3 {
+		graph [style=dotted]
+		epoch_3
+		subgraph cluster_epoch_3_0 {
+			graph [style=solid]
+			label="Wheeler Residence, Outside: Three Escape"
+			Eleven_epoch_3_0
+			Mike_epoch_3_0
+			Dustin_epoch_3_0
+			Brenner_epoch_3_0
+		}
+	}
+	subgraph cluster_epoch_4 {
+		graph [style=dotted]
+		epoch_4
+		subgraph cluster_epoch_4_0 {
+			graph [style=solid]
+			label="Hawkins, Residential Area: Lucas Meets
+Up with Escapees, Eleven Flips a Van
+Into the Air"
+			Lucas_epoch_4_0
+			Eleven_epoch_4_0
+			Mike_epoch_4_0
+			Dustin_epoch_4_0
+		}
+	}
+	subgraph cluster_epoch_5 {
+		graph [style=dotted]
+		epoch_5
+		subgraph cluster_epoch_5_0 {
+			graph [style=solid]
+			label="Junkyard: Lucas Makes Up to Mike"
+			Mike_epoch_5_0
+			Dustin_epoch_5_0
+			Lucas_epoch_5_0
+			Eleven_epoch_5_0
+		}
+		subgraph cluster_epoch_5_1 {
+			graph [style=solid]
+			label="Hawkins Police Station: Joyce & Hopper
+join Jonathan and Nancy at the Police
+Station"
+			Joyce_epoch_5_1
+			Hopper_epoch_5_1
+			Jonathan_epoch_5_1
+			Nancy_epoch_5_1
+			Officer_Powell_epoch_5_1
+			Officer_Callahan_epoch_5_1
+		}
+		subgraph cluster_epoch_5_2 {
+			graph [style=solid]
+			label="Wheeler Residence: Karen Checks
+Basement, Ted & Karen Answer Door to
+Hawkins Personnel, Brenner Interrogates"
+			Karen_epoch_5_2
+			Ted_epoch_5_2
+			Brenner_epoch_5_2
+			Agent_Frazier_epoch_5_2
+		}
+	}
+	subgraph cluster_epoch_6 {
+		graph [style=dotted]
+		epoch_6
+		subgraph cluster_epoch_6_0 {
+			graph [style=solid]
+			label="Junkyard: Planning Entrance to Lab &
+Hiding in Old Bus from Helicopter"
+			Mike_epoch_6_0
+			Dustin_epoch_6_0
+			Lucas_epoch_6_0
+			Eleven_epoch_6_0
+		}
+		subgraph cluster_epoch_6_1 {
+			graph [style=solid]
+			label="Hawkins Police Station: Hopper & Joyce
+Question Jon & Nancy, Troy and Troy's
+Mom Complain to Powell & Callahan, Flo
+Looks On"
+			Hopper_epoch_6_1
+			Joyce_epoch_6_1
+			Jonathan_epoch_6_1
+			Nancy_epoch_6_1
+			Troy_epoch_6_1
+			"Troy's_Mom_epoch_6_1"
+			Flo_epoch_6_1
+		}
+	}
+	subgraph cluster_epoch_7 {
+		graph [style=dotted]
+		epoch_7
+		subgraph cluster_epoch_7_0 {
+			graph [style=solid]
+			label="Hawkins Convenience Store Parking Lot:
+Tommy and Carol Argue with Steve, Steve
+Drives Off"
+			Steve_epoch_7_0
+			Tommy_epoch_7_0
+			Carol_epoch_7_0
+		}
+	}
+	subgraph cluster_epoch_8 {
+		graph [style=dotted]
+		epoch_8
+		subgraph cluster_epoch_8_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Hopper, Nancy, Joyce
+& Jon Watch as Men in Black Remove
+Belongings from the Basement"
+			Hopper_epoch_8_0
+			Nancy_epoch_8_0
+			Joyce_epoch_8_0
+			Jonathan_epoch_8_0
+		}
+	}
+	subgraph cluster_epoch_9 {
+		graph [style=dotted]
+		epoch_9
+		subgraph cluster_epoch_9_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Nancy Radios Mike"
+			Hopper_epoch_9_0
+			Nancy_epoch_9_0
+			Joyce_epoch_9_0
+			Jonathan_epoch_9_0
+		}
+		subgraph cluster_epoch_9_1 {
+			graph [style=solid]
+			label="Junkyard: Mike is Afraid to Answer"
+			Mike_epoch_9_1
+			Lucas_epoch_9_1
+			Dustin_epoch_9_1
+			Eleven_epoch_9_1
+		}
+		subgraph cluster_epoch_9_2 {
+			graph [style=solid]
+			label="Hawkins Downtown: Steve Helps Clean Off
+Graffiti at Movie Theater"
+			Steve_epoch_9_2
+			Movie_Theater_Manager_epoch_9_2
+		}
+		subgraph cluster_epoch_9_3 {
+			graph [style=solid]
+			label="Wheeler Residence: Ted and Karen
+Speculate"
+			Ted_epoch_9_3
+			Karen_epoch_9_3
+		}
+	}
+	subgraph cluster_epoch_10 {
+		graph [style=dotted]
+		epoch_10
+		subgraph cluster_epoch_10_0 {
+			graph [style=solid]
+			label="Junkyard: Men with Stun Guns Appear,
+Hopper Knocks Them Out and Rescues Kids"
+			Hopper_epoch_10_0
+			Eleven_epoch_10_0
+			Lucas_epoch_10_0
+			Mike_epoch_10_0
+			Dustin_epoch_10_0
+		}
+		subgraph cluster_epoch_10_1 {
+			graph [style=solid]
+			label="Byers Residence: Eleven Tries to Find
+Barb & Will, Gets Idea"
+			Hopper_epoch_10_1
+			Joyce_epoch_10_1
+			Eleven_epoch_10_1
+			Mike_epoch_10_1
+			Dustin_epoch_10_1
+			Lucas_epoch_10_1
+			Nancy_epoch_10_1
+			Jonathan_epoch_10_1
+		}
+	}
+	subgraph cluster_epoch_11 {
+		graph [style=dotted]
+		epoch_11
+		subgraph cluster_epoch_11_0 {
+			graph [style=solid]
+			label="Byers Residence: Dustin Gets
+Instructions for Sensory Deprivation
+Tank"
+			Dustin_epoch_11_0
+		}
+		subgraph cluster_epoch_11_1 {
+			graph [style=solid]
+			label="Clarke Residence: Mr. Clarke Answers
+Phone While Entertaining a Girl"
+			Mr_Clarke_epoch_11_1
+			Jen_epoch_11_1
+		}
+	}
+	subgraph cluster_epoch_12 {
+		graph [style=dotted]
+		epoch_12
+		subgraph cluster_epoch_12_0 {
+			graph [style=solid]
+			label="Hawkins Middle School: The Bathtub is
+Prepared"
+			Hopper_epoch_12_0
+			Joyce_epoch_12_0
+			Eleven_epoch_12_0
+			Mike_epoch_12_0
+			Dustin_epoch_12_0
+			Lucas_epoch_12_0
+			Nancy_epoch_12_0
+			Jonathan_epoch_12_0
+		}
+	}
+	subgraph cluster_epoch_13 {
+		graph [style=dotted]
+		epoch_13
+		subgraph cluster_epoch_13_0 {
+			graph [style=solid]
+			label="Upside Down: Eleven Finds Barb Dead and
+Encounters Will"
+			Eleven_epoch_13_0
+			Barb_epoch_13_0
+			Will_epoch_13_0
+		}
+	}
+	subgraph cluster_epoch_14 {
+		graph [style=dotted]
+		epoch_14
+		subgraph cluster_epoch_14_0 {
+			graph [style=solid]
+			label="Hawkins Police Station: Jonathan & Nancy
+Get Their Traps from the Police Station"
+			Jonathan_epoch_14_0
+			Nancy_epoch_14_0
+		}
+		subgraph cluster_epoch_14_1 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper and Joyce are
+Apprehended at the Labs"
+			Hopper_epoch_14_1
+			Joyce_epoch_14_1
+		}
+		subgraph cluster_epoch_14_2 {
+			graph [style=solid]
+			label="Upside Down: Will is Attacked by The
+Monster"
+			Will_epoch_14_2
+			The_Monster_epoch_14_2
+		}
+	}
+}

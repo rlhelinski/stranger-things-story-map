@@ -1,0 +1,567 @@
+// Chapter Five: The Flea and the Acrobat
+digraph {
+	center=1 randir=TB
+	edge [dir=none]
+	node [height=0.3 width=0.3]
+	subgraph timeline {
+		node [label="" style=invis]
+		edge [style=invis]
+		epoch_1 -> epoch_2
+		epoch_2 -> epoch_3
+		epoch_3 -> epoch_4
+		epoch_4 -> epoch_5
+		epoch_5 -> epoch_6
+		epoch_6 -> epoch_7
+		epoch_7 -> epoch_8
+		epoch_8 -> epoch_9
+		epoch_9 -> epoch_10
+		epoch_10 -> epoch_11
+		epoch_11 -> epoch_12
+		epoch_12 -> epoch_13
+		epoch_13 -> epoch_14
+		epoch_14 -> epoch_15
+		epoch_15 -> epoch_16
+		epoch_16 -> epoch_17
+		epoch_17 -> epoch_18
+		epoch_18 -> epoch_19
+	}
+	// Styles for Character Nodes
+	{
+		node [colorscheme=dark28 shape=box style=rounded]
+		edge [colorscheme=dark28]
+		{
+			node [color=1 label="Mr. Sinclair"]
+			edge [color=1]
+			Mr_Sinclair_epoch_8_0
+		}
+		{
+			node [color=2 label="Lonnie Byers"]
+			edge [color=2]
+			Lonnie_epoch_1_1 -> Lonnie_epoch_6_0
+			Lonnie_epoch_6_0 -> Lonnie_epoch_7_0
+			Lonnie_epoch_7_0 -> Lonnie_epoch_8_0
+			Lonnie_epoch_8_0 -> Lonnie_epoch_10_0
+			Lonnie_epoch_10_0 -> Lonnie_epoch_11_0
+			Lonnie_epoch_11_0 -> Lonnie_epoch_12_0
+		}
+		{
+			node [color=3 label="Ted Wheeler"]
+			edge [color=3]
+			Ted_epoch_6_1 -> Ted_epoch_8_0
+		}
+		{
+			node [color=4 label=Eleven]
+			edge [color=4]
+			Eleven_epoch_2_1 -> Eleven_epoch_3_1
+			Eleven_epoch_3_1 -> Eleven_epoch_4_1
+			Eleven_epoch_4_1 -> Eleven_epoch_10_1
+			Eleven_epoch_10_1 -> Eleven_epoch_12_3
+			Eleven_epoch_12_3 -> Eleven_epoch_13_0
+			Eleven_epoch_13_0 -> Eleven_epoch_14_0
+			Eleven_epoch_14_0 -> Eleven_epoch_15_0
+			Eleven_epoch_15_0 -> Eleven_epoch_16_0
+			Eleven_epoch_16_0 -> Eleven_epoch_17_0
+			Eleven_epoch_17_0 -> Eleven_epoch_18_0
+		}
+		{
+			node [color=5 label="Jonathan Byers"]
+			edge [color=5]
+			Jonathan_epoch_6_0 -> Jonathan_epoch_7_0
+			Jonathan_epoch_7_0 -> Jonathan_epoch_8_0
+			Jonathan_epoch_8_0 -> Jonathan_epoch_9_0
+			Jonathan_epoch_9_0 -> Jonathan_epoch_12_1
+			Jonathan_epoch_12_1 -> Jonathan_epoch_14_1
+			Jonathan_epoch_14_1 -> Jonathan_epoch_19_0
+		}
+		{
+			node [color=6 label="Agent Repairman"]
+			edge [color=6]
+			Agent_Repairman_epoch_9_1
+		}
+		{
+			node [color=7 label="Mike Wheeler"]
+			edge [color=7]
+			Mike_epoch_2_1 -> Mike_epoch_3_1
+			Mike_epoch_3_1 -> Mike_epoch_4_1
+			Mike_epoch_4_1 -> Mike_epoch_6_1
+			Mike_epoch_6_1 -> Mike_epoch_8_0
+			Mike_epoch_8_0 -> Mike_epoch_9_2
+			Mike_epoch_9_2 -> Mike_epoch_10_1
+			Mike_epoch_10_1 -> Mike_epoch_12_3
+			Mike_epoch_12_3 -> Mike_epoch_14_0
+			Mike_epoch_14_0 -> Mike_epoch_15_0
+			Mike_epoch_15_0 -> Mike_epoch_16_0
+			Mike_epoch_16_0 -> Mike_epoch_18_0
+		}
+		{
+			node [color=8 label="Officer Callahan"]
+			edge [color=8]
+			Officer_Callahan_epoch_9_3
+		}
+		{
+			node [color=1 label="Jim Hopper"]
+			edge [color=1]
+			Hopper_epoch_1_0 -> Hopper_epoch_2_0
+			Hopper_epoch_2_0 -> Hopper_epoch_3_0
+			Hopper_epoch_3_0 -> Hopper_epoch_4_0
+			Hopper_epoch_4_0 -> Hopper_epoch_5_0
+			Hopper_epoch_5_0 -> Hopper_epoch_8_1
+			Hopper_epoch_8_1 -> Hopper_epoch_9_3
+			Hopper_epoch_9_3 -> Hopper_epoch_12_2
+			Hopper_epoch_12_2 -> Hopper_epoch_14_2
+			Hopper_epoch_14_2 -> Hopper_epoch_15_1
+		}
+		{
+			node [color=2 label="Dustin Henderson"]
+			edge [color=2]
+			Dustin_epoch_2_1 -> Dustin_epoch_3_1
+			Dustin_epoch_3_1 -> Dustin_epoch_4_1
+			Dustin_epoch_4_1 -> Dustin_epoch_8_0
+			Dustin_epoch_8_0 -> Dustin_epoch_9_2
+			Dustin_epoch_9_2 -> Dustin_epoch_10_1
+			Dustin_epoch_10_1 -> Dustin_epoch_12_3
+			Dustin_epoch_12_3 -> Dustin_epoch_15_0
+			Dustin_epoch_15_0 -> Dustin_epoch_16_0
+			Dustin_epoch_16_0 -> Dustin_epoch_18_0
+		}
+		{
+			node [color=3 label="Lucas Sinclair"]
+			edge [color=3]
+			Lucas_epoch_2_1 -> Lucas_epoch_3_1
+			Lucas_epoch_3_1 -> Lucas_epoch_4_1
+			Lucas_epoch_4_1 -> Lucas_epoch_8_0
+			Lucas_epoch_8_0 -> Lucas_epoch_9_2
+			Lucas_epoch_9_2 -> Lucas_epoch_10_1
+			Lucas_epoch_10_1 -> Lucas_epoch_12_3
+			Lucas_epoch_12_3 -> Lucas_epoch_15_0
+			Lucas_epoch_15_0 -> Lucas_epoch_16_0
+			Lucas_epoch_16_0 -> Lucas_epoch_18_0
+		}
+		{
+			node [color=4 label="Erica Sinclair"]
+			edge [color=4]
+			Erica_epoch_8_0
+		}
+		{
+			node [color=5 label="Mr. Clarke"]
+			edge [color=5]
+			Mr_Clarke_epoch_9_2
+		}
+		{
+			node [color=6 label="Nancy Wheeler"]
+			edge [color=6]
+			Nancy_epoch_6_1 -> Nancy_epoch_9_0
+			Nancy_epoch_9_0 -> Nancy_epoch_11_1
+			Nancy_epoch_11_1 -> Nancy_epoch_12_1
+			Nancy_epoch_12_1 -> Nancy_epoch_14_1
+			Nancy_epoch_14_1 -> Nancy_epoch_14_2
+			Nancy_epoch_14_2 -> Nancy_epoch_19_0
+		}
+		{
+			node [color=7 label="Dr. Martin Brenner"]
+			edge [color=7]
+			Brenner_epoch_13_0
+		}
+		{
+			node [color=8 label=Diane]
+			edge [color=8]
+			Diane_epoch_12_2
+		}
+		{
+			node [color=1 label="Mrs. Sinclair"]
+			edge [color=1]
+			Mrs_Sinclair_epoch_8_0
+		}
+		{
+			node [color=2 label="Steve Harrington"]
+			edge [color=2]
+			Steve_epoch_11_1
+		}
+		{
+			node [color=3 label="Karen Wheeler"]
+			edge [color=3]
+			Karen_epoch_6_1 -> Karen_epoch_8_0
+		}
+		{
+			node [color=4 label="The Monster"]
+			edge [color=4]
+			The_Monster_epoch_17_0 -> The_Monster_epoch_19_0
+		}
+		{
+			node [color=5 label="Joyce Byers"]
+			edge [color=5]
+			Joyce_epoch_1_1 -> Joyce_epoch_6_0
+			Joyce_epoch_6_0 -> Joyce_epoch_7_0
+			Joyce_epoch_7_0 -> Joyce_epoch_8_0
+			Joyce_epoch_8_0 -> Joyce_epoch_10_0
+			Joyce_epoch_10_0 -> Joyce_epoch_11_0
+			Joyce_epoch_11_0 -> Joyce_epoch_12_0
+			Joyce_epoch_12_0 -> Joyce_epoch_15_1
+		}
+		{
+			node [color=6 label="Officer Powell"]
+			edge [color=6]
+			Officer_Powell_epoch_9_3
+		}
+	}
+	subgraph cluster_epoch_1 {
+		graph [style=dotted]
+		epoch_1
+		subgraph cluster_epoch_1_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper Sneaks into Lab"
+			Hopper_epoch_1_0
+		}
+		subgraph cluster_epoch_1_1 {
+			graph [style=solid]
+			label="Byers Residence: Lonnie Tries to Comfort
+Joyce"
+			Lonnie_epoch_1_1
+			Joyce_epoch_1_1
+		}
+	}
+	subgraph cluster_epoch_2 {
+		graph [style=dotted]
+		epoch_2
+		subgraph cluster_epoch_2_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper Looks for Will"
+			Hopper_epoch_2_0
+		}
+		subgraph cluster_epoch_2_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Deciphering Will's
+Radio Message, Conceive the Upside Down"
+			Lucas_epoch_2_1
+			Dustin_epoch_2_1
+			Mike_epoch_2_1
+			Eleven_epoch_2_1
+		}
+	}
+	subgraph cluster_epoch_3 {
+		graph [style=dotted]
+		epoch_3
+		subgraph cluster_epoch_3_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper Evades MPs"
+			Hopper_epoch_3_0
+		}
+		subgraph cluster_epoch_3_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Definition of Veil of
+Shadows"
+			Lucas_epoch_3_1
+			Dustin_epoch_3_1
+			Mike_epoch_3_1
+			Eleven_epoch_3_1
+		}
+	}
+	subgraph cluster_epoch_4 {
+		graph [style=dotted]
+		epoch_4
+		subgraph cluster_epoch_4_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper Finds Portal"
+			Hopper_epoch_4_0
+		}
+		subgraph cluster_epoch_4_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Eleven Doesn't Know
+How to Get There"
+			Lucas_epoch_4_1
+			Dustin_epoch_4_1
+			Mike_epoch_4_1
+			Eleven_epoch_4_1
+		}
+	}
+	subgraph cluster_epoch_5 {
+		graph [style=dotted]
+		epoch_5
+		subgraph cluster_epoch_5_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper Apprehended"
+			Hopper_epoch_5_0
+		}
+	}
+	subgraph cluster_epoch_6 {
+		graph [style=dotted]
+		epoch_6
+		subgraph cluster_epoch_6_0 {
+			graph [style=solid]
+			label="Byers Residence: Jonathan Comes Home to
+Joyce & Lonnie"
+			Jonathan_epoch_6_0
+			Joyce_epoch_6_0
+			Lonnie_epoch_6_0
+		}
+		subgraph cluster_epoch_6_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Dad Helps Mike, Karen
+Helps Nancy Get Dressed"
+			Ted_epoch_6_1
+			Mike_epoch_6_1
+			Karen_epoch_6_1
+			Nancy_epoch_6_1
+		}
+		subgraph cluster_epoch_6_2 {
+			graph [style=solid]
+			label="Byers Residence: Dog Looks for Will"
+		}
+	}
+	subgraph cluster_epoch_7 {
+		graph [style=dotted]
+		epoch_7
+		subgraph cluster_epoch_7_0 {
+			graph [style=solid]
+			label="Byers Residence: Jonathan and Lonnie Get
+Dressed, Joyce Doesn't Want to Go"
+			Jonathan_epoch_7_0
+			Lonnie_epoch_7_0
+			Joyce_epoch_7_0
+		}
+	}
+	subgraph cluster_epoch_8 {
+		graph [style=dotted]
+		epoch_8
+		subgraph cluster_epoch_8_0 {
+			graph [style=solid]
+			label="Graveyard: Funeral for Will Byers"
+			Joyce_epoch_8_0
+			Jonathan_epoch_8_0
+			Lonnie_epoch_8_0
+			Lucas_epoch_8_0
+			Erica_epoch_8_0
+			Mrs_Sinclair_epoch_8_0
+			Mr_Sinclair_epoch_8_0
+			Dustin_epoch_8_0
+			Mike_epoch_8_0
+			Karen_epoch_8_0
+			Ted_epoch_8_0
+		}
+		subgraph cluster_epoch_8_1 {
+			graph [style=solid]
+			label="Hopper's Trailer: Hopper Wakes Up at
+Home Surrounded by Pills & Empty
+Bottles, Finds a Bug"
+			Hopper_epoch_8_1
+		}
+	}
+	subgraph cluster_epoch_9 {
+		graph [style=dotted]
+		epoch_9
+		subgraph cluster_epoch_9_0 {
+			graph [style=solid]
+			label="Graveyard: Jonathan and Nancy Map Things
+Out, Plan Attack"
+			Jonathan_epoch_9_0
+			Nancy_epoch_9_0
+		}
+		subgraph cluster_epoch_9_1 {
+			graph [style=solid]
+			label="Hawkins Middle School AV Room:
+Undercover Repairman Inspects Damage"
+			Agent_Repairman_epoch_9_1
+		}
+		subgraph cluster_epoch_9_2 {
+			graph [style=solid]
+			label="Banquet Hall: The Party Asks Mr. Clarke
+About Parallel Universes"
+			Mr_Clarke_epoch_9_2
+			Dustin_epoch_9_2
+			Mike_epoch_9_2
+			Lucas_epoch_9_2
+		}
+		subgraph cluster_epoch_9_3 {
+			graph [style=solid]
+			label="Hopper's Trailer: Powell and Callahan
+Check on the Chief, Inform Him that Some
+Hunters are Missing and the State Police
+Found Barb's Car at a Bus Station"
+			Hopper_epoch_9_3
+			Officer_Powell_epoch_9_3
+			Officer_Callahan_epoch_9_3
+		}
+	}
+	subgraph cluster_epoch_10 {
+		graph [style=dotted]
+		epoch_10
+		subgraph cluster_epoch_10_0 {
+			graph [style=solid]
+			label="Byers Residence: Lonnie Repairs Wall,
+Joyce Protests"
+			Lonnie_epoch_10_0
+			Joyce_epoch_10_0
+		}
+		subgraph cluster_epoch_10_1 {
+			graph [style=solid]
+			label="Wheeler Residence: The Party Ask Eleven
+About the Upside Down, Explain Gate,
+Discover Compass Anomaly"
+			Mike_epoch_10_1
+			Lucas_epoch_10_1
+			Dustin_epoch_10_1
+			Eleven_epoch_10_1
+		}
+	}
+	subgraph cluster_epoch_11 {
+		graph [style=dotted]
+		epoch_11
+		subgraph cluster_epoch_11_0 {
+			graph [style=solid]
+			label="Byers Residence: Joyce Discovers
+Lonnie's Real Motive"
+			Lonnie_epoch_11_0
+			Joyce_epoch_11_0
+		}
+		subgraph cluster_epoch_11_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Nancy Swings Bat,
+Steve Apologizes"
+			Nancy_epoch_11_1
+			Steve_epoch_11_1
+		}
+	}
+	subgraph cluster_epoch_12 {
+		graph [style=dotted]
+		epoch_12
+		subgraph cluster_epoch_12_0 {
+			graph [style=solid]
+			label="Byers Residence: Joyce Confronts Lonnie
+about Money"
+			Joyce_epoch_12_0
+			Lonnie_epoch_12_0
+		}
+		subgraph cluster_epoch_12_1 {
+			graph [style=solid]
+			label="Hawkins Woods: Jonathan Target Practices
+with Nancy, Discuss Families"
+			Jonathan_epoch_12_1
+			Nancy_epoch_12_1
+		}
+		subgraph cluster_epoch_12_2 {
+			graph [style=solid]
+			label="Hopper's Trailer: Hopper Calls Ex,
+Reminisces"
+			Hopper_epoch_12_2
+			Diane_epoch_12_2
+		}
+		subgraph cluster_epoch_12_3 {
+			graph [style=solid]
+			label="Hawkins Railroad Tracks: The Party and
+Eleven Follow Compasses Down Tracks"
+			Lucas_epoch_12_3
+			Dustin_epoch_12_3
+			Mike_epoch_12_3
+			Eleven_epoch_12_3
+		}
+	}
+	subgraph cluster_epoch_13 {
+		graph [style=dotted]
+		epoch_13
+		subgraph cluster_epoch_13_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Flashback: Papa & Eleven Go
+to the Bath"
+			Brenner_epoch_13_0
+			Eleven_epoch_13_0
+		}
+	}
+	subgraph cluster_epoch_14 {
+		graph [style=dotted]
+		epoch_14
+		subgraph cluster_epoch_14_0 {
+			graph [style=solid]
+			label="Hawkins Railroad Tracks: Eleven Asks
+Mike to Turn Back"
+			Mike_epoch_14_0
+			Eleven_epoch_14_0
+		}
+		subgraph cluster_epoch_14_1 {
+			graph [style=solid]
+			label="Hawkins Woods: Nancy and Jonathan
+Discuss Impression of Picture"
+			Nancy_epoch_14_1
+			Jonathan_epoch_14_1
+		}
+		subgraph cluster_epoch_14_2 {
+			graph [style=solid]
+			label="Byers Residence: Hopper Arrives to Talk
+to Joyce"
+			Nancy_epoch_14_2
+			Hopper_epoch_14_2
+		}
+	}
+	subgraph cluster_epoch_15 {
+		graph [style=dotted]
+		epoch_15
+		subgraph cluster_epoch_15_0 {
+			graph [style=solid]
+			label="Junkyard: The Party Realize the
+compasses are Leading Them Back Home"
+			Mike_epoch_15_0
+			Dustin_epoch_15_0
+			Lucas_epoch_15_0
+			Eleven_epoch_15_0
+		}
+		subgraph cluster_epoch_15_1 {
+			graph [style=solid]
+			label="Byers Residence: Hopper Tells Joyce his
+Place was bugged, Will's Body Was a Fake
+and Joyce was Right"
+			Hopper_epoch_15_1
+			Joyce_epoch_15_1
+		}
+	}
+	subgraph cluster_epoch_16 {
+		graph [style=dotted]
+		epoch_16
+		subgraph cluster_epoch_16_0 {
+			graph [style=solid]
+			label="Junkyard: Arguing about Eleven's
+Itentions, Lucas and Mike Fight, Eleven
+Tries to Break it Up"
+			Lucas_epoch_16_0
+			Mike_epoch_16_0
+			Dustin_epoch_16_0
+			Eleven_epoch_16_0
+		}
+	}
+	subgraph cluster_epoch_17 {
+		graph [style=dotted]
+		epoch_17
+		subgraph cluster_epoch_17_0 {
+			graph [style=solid]
+			label="Upside Down: Flashback: Eleven Observes
+Man Speaking Russian, Papa can Hear, The
+Monster Appears"
+			Eleven_epoch_17_0
+			The_Monster_epoch_17_0
+		}
+	}
+	subgraph cluster_epoch_18 {
+		graph [style=dotted]
+		epoch_18
+		subgraph cluster_epoch_18_0 {
+			graph [style=solid]
+			label="Junkyard: Dustin & Mike Revive Lucas,
+Eleven Disappears"
+			Dustin_epoch_18_0
+			Mike_epoch_18_0
+			Lucas_epoch_18_0
+			Eleven_epoch_18_0
+		}
+	}
+	subgraph cluster_epoch_19 {
+		graph [style=dotted]
+		epoch_19
+		subgraph cluster_epoch_19_0 {
+			graph [style=solid]
+			label="Hawkins Woods: Jonathan and Nancy Pursue
+The Monster in the Dark, Nancy Enters
+the Upside Down through a Tree"
+			Jonathan_epoch_19_0
+			Nancy_epoch_19_0
+			The_Monster_epoch_19_0
+		}
+	}
+}

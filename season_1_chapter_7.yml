@@ -38,13 +38,13 @@ scenes:
     characters: [Mike, Dustin, Lucas, Eleven]
   - title: Hopper & Joyce Question Jon & Nancy, Troy and Troy's Mom Complain to Powell & Callahan, Flo Looks On
     location: Hawkins Police Station
-    characters: [Hopper, Joyce, Jonathan, Nancy, Troy, Troy's Mom, Florence]
+    characters: [Hopper, Joyce, Jonathan, Nancy, Troy, Troy's Mom, Flo]
 - epoch 7:
   - title: Tommy and Carol Argue with Steve, Steve Drives Off
     location: Hawkins Convenience Store Parking Lot
     characters: [Steve, Tommy, Carol]
 - epoch 8:
-  - title: Hopper, Nancy, Joyce & Jon Look On? Drive to Byers House?
+  - title: Hopper, Nancy, Joyce & Jon Watch as Men in Black Remove Belongings from the Basement
     location: Wheeler Residence
     characters: [Hopper, Nancy, Joyce, Jonathan]
 - epoch 9:
@@ -64,7 +64,7 @@ scenes:
   - title: Men with Stun Guns Appear, Hopper Knocks Them Out and Rescues Kids
     location: Junkyard
     characters: [Hopper, Eleven, Lucas, Mike, Dustin]
-  - title: Eleven Tries to Find Barb & Will
+  - title: Eleven Tries to Find Barb & Will, Gets Idea
     location: Byers Residence
     characters: [Hopper, Joyce, Eleven, Mike, Dustin, Lucas, Nancy, Jonathan]
 - epoch 11:
