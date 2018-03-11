@@ -1,0 +1,479 @@
+// Chapter Six: The Monster
+digraph {
+	center=1 randir=TB
+	edge [dir=none]
+	node [height=0.3 width=0.3]
+	subgraph timeline {
+		node [label="" style=invis]
+		edge [style=invis]
+		epoch_1 -> epoch_2
+		epoch_2 -> epoch_3
+		epoch_3 -> epoch_4
+		epoch_4 -> epoch_5
+		epoch_5 -> epoch_6
+		epoch_6 -> epoch_7
+		epoch_7 -> epoch_8
+		epoch_8 -> epoch_9
+		epoch_9 -> epoch_10
+		epoch_10 -> epoch_11
+		epoch_11 -> epoch_12
+		epoch_12 -> epoch_13
+		epoch_13 -> epoch_14
+		epoch_14 -> epoch_15
+		epoch_15 -> epoch_16
+		epoch_16 -> epoch_17
+		epoch_17 -> epoch_18
+		epoch_18 -> epoch_19
+		epoch_19 -> epoch_20
+		epoch_20 -> epoch_21
+	}
+	// Styles for Character Nodes
+	{
+		node [colorscheme=dark28 shape=box style=rounded]
+		edge [colorscheme=dark28]
+		{
+			node [color=1 label=Florence]
+			edge [color=1]
+			Flo_epoch_19_0
+		}
+		{
+			node [color=2 label="Jim Hopper"]
+			edge [color=2]
+			Hopper_epoch_3_0 -> Hopper_epoch_6_0
+			Hopper_epoch_6_0 -> Hopper_epoch_13_0
+			Hopper_epoch_13_0 -> Hopper_epoch_15_0
+			Hopper_epoch_15_0 -> Hopper_epoch_18_0
+		}
+		{
+			node [color=3 label=Eleven]
+			edge [color=3]
+			Eleven_epoch_10_0 -> Eleven_epoch_10_1
+			Eleven_epoch_10_1 -> Eleven_epoch_12_0
+			Eleven_epoch_12_0 -> Eleven_epoch_12_1
+			Eleven_epoch_12_1 -> Eleven_epoch_14_1
+			Eleven_epoch_14_1 -> Eleven_epoch_20_1
+			Eleven_epoch_20_1 -> Eleven_epoch_20_2
+			Eleven_epoch_20_2 -> Eleven_epoch_21_0
+		}
+		{
+			node [color=4 label="Holly Wheeler"]
+			edge [color=4]
+			Holly_epoch_11_0
+		}
+		{
+			node [color=5 label="Jonathan Byers"]
+			edge [color=5]
+			Jonathan_epoch_1_0 -> Jonathan_epoch_2_1
+			Jonathan_epoch_2_1 -> Jonathan_epoch_4_0
+			Jonathan_epoch_4_0 -> Jonathan_epoch_7_0
+			Jonathan_epoch_7_0 -> Jonathan_epoch_17_0
+			Jonathan_epoch_17_0 -> Jonathan_epoch_17_1
+			Jonathan_epoch_17_1 -> Jonathan_epoch_19_0
+		}
+		{
+			node [color=6 label=Troy]
+			edge [color=6]
+			Troy_epoch_20_1
+		}
+		{
+			node [color=7 label="Agent Repairman"]
+			edge [color=7]
+			Agent_Repairman_epoch_14_0 -> Agent_Repairman_epoch_21_0
+		}
+		{
+			node [color=8 label="Mike Wheeler"]
+			edge [color=8]
+			Mike_epoch_5_0 -> Mike_epoch_9_0
+			Mike_epoch_9_0 -> Mike_epoch_14_1
+			Mike_epoch_14_1 -> Mike_epoch_20_1
+			Mike_epoch_20_1 -> Mike_epoch_21_0
+		}
+		{
+			node [color=1 label="Officer Callahan"]
+			edge [color=1]
+			Officer_Callahan_epoch_14_1 -> Officer_Callahan_epoch_17_1
+		}
+		{
+			node [color=2 label="Agent Connie Frazier"]
+			edge [color=2]
+			Agent_Frazier_epoch_8_0
+		}
+		{
+			node [color=3 label="Terry Ives"]
+			edge [color=3]
+			Terry_Ives_epoch_13_0 -> Terry_Ives_epoch_15_0
+			Terry_Ives_epoch_15_0 -> Terry_Ives_epoch_18_0
+		}
+		{
+			node [color=4 label=Carol]
+			edge [color=4]
+			Carol_epoch_2_0 -> Carol_epoch_17_1
+		}
+		{
+			node [color=5 label="Dustin Henderson"]
+			edge [color=5]
+			Dustin_epoch_9_0 -> Dustin_epoch_14_1
+			Dustin_epoch_14_1 -> Dustin_epoch_20_1
+			Dustin_epoch_20_1 -> Dustin_epoch_21_0
+		}
+		{
+			node [color=6 label="Lucas Sinclair"]
+			edge [color=6]
+			Lucas_epoch_14_0 -> Lucas_epoch_16_0
+			Lucas_epoch_16_0 -> Lucas_epoch_20_0
+			Lucas_epoch_20_0 -> Lucas_epoch_21_0
+		}
+		{
+			node [color=7 label=James]
+			edge [color=7]
+			James_epoch_20_1
+		}
+		{
+			node [color=8 label="Tommy H."]
+			edge [color=8]
+			Tommy_epoch_2_0 -> Tommy_epoch_17_1
+		}
+		{
+			node [color=1 label="Mr. Clarke"]
+			edge [color=1]
+			Mr_Clarke_epoch_8_0
+		}
+		{
+			node [color=2 label="Nancy Wheeler"]
+			edge [color=2]
+			Nancy_epoch_1_0 -> Nancy_epoch_2_1
+			Nancy_epoch_2_1 -> Nancy_epoch_4_0
+			Nancy_epoch_4_0 -> Nancy_epoch_7_0
+			Nancy_epoch_7_0 -> Nancy_epoch_17_0
+			Nancy_epoch_17_0 -> Nancy_epoch_17_1
+			Nancy_epoch_17_1 -> Nancy_epoch_19_0
+		}
+		{
+			node [color=3 label="Dr. Martin Brenner"]
+			edge [color=3]
+			Brenner_epoch_10_0 -> Brenner_epoch_12_1
+			Brenner_epoch_12_1 -> Brenner_epoch_20_2
+			Brenner_epoch_20_2 -> Brenner_epoch_21_0
+		}
+		{
+			node [color=4 label="Ted Wheeler"]
+			edge [color=4]
+			Ted_epoch_11_0
+		}
+		{
+			node [color=5 label="Steve Harrington"]
+			edge [color=5]
+			Steve_epoch_2_0 -> Steve_epoch_2_1
+			Steve_epoch_2_1 -> Steve_epoch_17_1
+		}
+		{
+			node [color=6 label="Karen Wheeler"]
+			edge [color=6]
+			Karen_epoch_11_0
+		}
+		{
+			node [color=7 label="Becky Ives"]
+			edge [color=7]
+			Becky_Ives_epoch_13_0 -> Becky_Ives_epoch_15_0
+			Becky_Ives_epoch_15_0 -> Becky_Ives_epoch_18_0
+		}
+		{
+			node [color=8 label="Joyce Byers"]
+			edge [color=8]
+			Joyce_epoch_3_0 -> Joyce_epoch_6_0
+			Joyce_epoch_6_0 -> Joyce_epoch_13_0
+			Joyce_epoch_13_0 -> Joyce_epoch_15_0
+			Joyce_epoch_15_0 -> Joyce_epoch_18_0
+		}
+		{
+			node [color=1 label="Officer Powell"]
+			edge [color=1]
+			Officer_Powell_epoch_14_1 -> Officer_Powell_epoch_17_1
+		}
+	}
+	subgraph cluster_epoch_1 {
+		graph [style=dotted]
+		epoch_1
+		subgraph cluster_epoch_1_0 {
+			graph [style=solid]
+			label="Hawkins Woods, The Upside-Down: Nancy
+Escapes the Upside-Down"
+			Jonathan_epoch_1_0
+			Nancy_epoch_1_0
+		}
+	}
+	subgraph cluster_epoch_2 {
+		graph [style=dotted]
+		epoch_2
+		subgraph cluster_epoch_2_0 {
+			graph [style=solid]
+			label="On the Road: Tommy and Carol tease Steve"
+			Tommy_epoch_2_0
+			Carol_epoch_2_0
+			Steve_epoch_2_0
+		}
+		subgraph cluster_epoch_2_1 {
+			graph [style=solid]
+			label="Wheeler Residence: Steve sees Nancy and
+Jonathan together"
+			Steve_epoch_2_1
+			Nancy_epoch_2_1
+			Jonathan_epoch_2_1
+		}
+	}
+	subgraph cluster_epoch_3 {
+		graph [style=dotted]
+		epoch_3
+		subgraph cluster_epoch_3_0 {
+			graph [style=solid]
+			label="Byers Residence: Joyce and Hopper talk
+about the research facility"
+			Joyce_epoch_3_0
+			Hopper_epoch_3_0
+		}
+	}
+	subgraph cluster_epoch_4 {
+		graph [style=dotted]
+		epoch_4
+		subgraph cluster_epoch_4_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Jonathan and Nancy go
+to sleep together"
+			Nancy_epoch_4_0
+			Jonathan_epoch_4_0
+		}
+	}
+	subgraph cluster_epoch_5 {
+		graph [style=dotted]
+		epoch_5
+		subgraph cluster_epoch_5_0 {
+			graph [style=solid]
+			label="Wheeler Basement: Missing Eleven"
+			Mike_epoch_5_0
+		}
+	}
+	subgraph cluster_epoch_6 {
+		graph [style=dotted]
+		epoch_6
+		subgraph cluster_epoch_6_0 {
+			graph [style=solid]
+			label="Indiana Road: Hopper and Joyce follow a
+lead"
+			Joyce_epoch_6_0
+			Hopper_epoch_6_0
+		}
+	}
+	subgraph cluster_epoch_7 {
+		graph [style=dotted]
+		epoch_7
+		subgraph cluster_epoch_7_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Analyzing the Monster"
+			Jonathan_epoch_7_0
+			Nancy_epoch_7_0
+		}
+	}
+	subgraph cluster_epoch_8 {
+		graph [style=dotted]
+		epoch_8
+		subgraph cluster_epoch_8_0 {
+			graph [style=solid]
+			label="Clarke Residence: AV Club Pitch"
+			Agent_Frazier_epoch_8_0
+			Mr_Clarke_epoch_8_0
+		}
+	}
+	subgraph cluster_epoch_9 {
+		graph [style=dotted]
+		epoch_9
+		subgraph cluster_epoch_9_0 {
+			graph [style=solid]
+			label="Wheeler Basement: The Rule of Law"
+			Dustin_epoch_9_0
+			Mike_epoch_9_0
+		}
+	}
+	subgraph cluster_epoch_10 {
+		graph [style=dotted]
+		epoch_10
+		subgraph cluster_epoch_10_0 {
+			graph [style=solid]
+			label="Hawkins Labs: Flashback: Make Contact"
+			Eleven_epoch_10_0
+			Brenner_epoch_10_0
+		}
+		subgraph cluster_epoch_10_1 {
+			graph [style=solid]
+			label="Hawkins Woods: Eleven wakes in the woods"
+			Eleven_epoch_10_1
+		}
+	}
+	subgraph cluster_epoch_11 {
+		graph [style=dotted]
+		epoch_11
+		subgraph cluster_epoch_11_0 {
+			graph [style=solid]
+			label="Wheeler Residence: Karen finds Nancy's
+room empty"
+			Karen_epoch_11_0
+			Ted_epoch_11_0
+			Holly_epoch_11_0
+		}
+	}
+	subgraph cluster_epoch_12 {
+		graph [style=dotted]
+		epoch_12
+		subgraph cluster_epoch_12_0 {
+			graph [style=solid]
+			label="Bradley's Big Buy: Eleven Steals Eggos"
+			Eleven_epoch_12_0
+		}
+		subgraph cluster_epoch_12_1 {
+			graph [style=solid]
+			label="Hawkins Labs, The Upside-Down:
+Flashback: It's Calling You"
+			Eleven_epoch_12_1
+			Brenner_epoch_12_1
+		}
+	}
+	subgraph cluster_epoch_13 {
+		graph [style=dotted]
+		epoch_13
+		subgraph cluster_epoch_13_0 {
+			graph [style=solid]
+			label="Ives Residence: Trying to Communicate
+with Terry"
+			Joyce_epoch_13_0
+			Hopper_epoch_13_0
+			Terry_Ives_epoch_13_0
+			Becky_Ives_epoch_13_0
+		}
+	}
+	subgraph cluster_epoch_14 {
+		graph [style=dotted]
+		epoch_14
+		subgraph cluster_epoch_14_0 {
+			graph [style=solid]
+			label="Sinclair Residence: Lucas heads toward
+the gate"
+			Lucas_epoch_14_0
+			Agent_Repairman_epoch_14_0
+		}
+		subgraph cluster_epoch_14_1 {
+			graph [style=solid]
+			label="Bradley's Big Buy: Best Friends"
+			Mike_epoch_14_1
+			Dustin_epoch_14_1
+			Officer_Powell_epoch_14_1
+			Officer_Callahan_epoch_14_1
+			Eleven_epoch_14_1
+		}
+	}
+	subgraph cluster_epoch_15 {
+		graph [style=dotted]
+		epoch_15
+		subgraph cluster_epoch_15_0 {
+			graph [style=solid]
+			label="Ives Residence: Mind Experiments and
+Jane"
+			Joyce_epoch_15_0
+			Hopper_epoch_15_0
+			Becky_Ives_epoch_15_0
+			Terry_Ives_epoch_15_0
+		}
+	}
+	subgraph cluster_epoch_16 {
+		graph [style=dotted]
+		epoch_16
+		subgraph cluster_epoch_16_0 {
+			graph [style=solid]
+			label="Hawkins Woods: Perimeter Fence"
+			Lucas_epoch_16_0
+		}
+	}
+	subgraph cluster_epoch_17 {
+		graph [style=dotted]
+		epoch_17
+		subgraph cluster_epoch_17_0 {
+			graph [style=solid]
+			label="Outdoor Store: Stocking up on Traps"
+			Nancy_epoch_17_0
+			Jonathan_epoch_17_0
+		}
+		subgraph cluster_epoch_17_1 {
+			graph [style=solid]
+			label="Movie Theater: Steve and Jonathan Fight"
+			Nancy_epoch_17_1
+			Jonathan_epoch_17_1
+			Steve_epoch_17_1
+			Tommy_epoch_17_1
+			Carol_epoch_17_1
+			Officer_Powell_epoch_17_1
+			Officer_Callahan_epoch_17_1
+		}
+	}
+	subgraph cluster_epoch_18 {
+		graph [style=dotted]
+		epoch_18
+		subgraph cluster_epoch_18_0 {
+			graph [style=solid]
+			label="Ives Residence: Hoping for a Chance"
+			Joyce_epoch_18_0
+			Hopper_epoch_18_0
+			Terry_Ives_epoch_18_0
+			Becky_Ives_epoch_18_0
+		}
+	}
+	subgraph cluster_epoch_19 {
+		graph [style=dotted]
+		epoch_19
+		subgraph cluster_epoch_19_0 {
+			graph [style=solid]
+			label="Hawkins Police Station: Crazy in Love"
+			Flo_epoch_19_0
+			Nancy_epoch_19_0
+			Jonathan_epoch_19_0
+		}
+	}
+	subgraph cluster_epoch_20 {
+		graph [style=dotted]
+		epoch_20
+		subgraph cluster_epoch_20_0 {
+			graph [style=solid]
+			label="Hawkins Labs: Lucas Connects the Dots"
+			Lucas_epoch_20_0
+		}
+		subgraph cluster_epoch_20_1 {
+			graph [style=solid]
+			label="Hawkins Quarry: Eleven Comes to the
+Rescue"
+			Eleven_epoch_20_1
+			Mike_epoch_20_1
+			Dustin_epoch_20_1
+			Troy_epoch_20_1
+			James_epoch_20_1
+		}
+		subgraph cluster_epoch_20_2 {
+			graph [style=solid]
+			label="The Upside-Down, Hawkins Labs:
+Flashback: Opening the Rift"
+			Eleven_epoch_20_2
+			Brenner_epoch_20_2
+		}
+	}
+	subgraph cluster_epoch_21 {
+		graph [style=dotted]
+		epoch_21
+		subgraph cluster_epoch_21_0 {
+			graph [style=solid]
+			label="Wheeler Residence, Hawkins Labs: Heading
+Home"
+			Eleven_epoch_21_0
+			Mike_epoch_21_0
+			Dustin_epoch_21_0
+			Agent_Repairman_epoch_21_0
+			Lucas_epoch_21_0
+			Brenner_epoch_21_0
+		}
+	}
+}

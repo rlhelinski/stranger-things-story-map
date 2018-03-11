@@ -1,0 +1,132 @@
+series: Stranger Things
+title: 'Chapter Six: The Monster'
+season: 1
+episode: 6
+scenes:
+
+- epoch 1:
+  - title: Nancy Escapes the Upside-Down
+    location: Hawkins Woods, The Upside-Down
+    characters: [Jonathan, Nancy] 
+
+- epoch 2:
+  - title: Tommy and Carol tease Steve
+    location: On the Road
+    characters: [Tommy, Carol, Steve]
+  - title: Steve sees Nancy and Jonathan together
+    location: Wheeler Residence
+    characters: [Steve, Nancy, Jonathan]
+
+- epoch 3:
+  - title: Joyce and Hopper talk about the research facility
+    location: Byers Residence
+    characters: [Joyce, Hopper]
+
+- epoch 4:
+  - title: Jonathan and Nancy go to sleep together
+    location: Wheeler Residence
+    characters: [Nancy, Jonathan]
+
+- epoch 5:
+  - title: Missing Eleven
+    location: Wheeler Basement
+    characters: [Mike]
+ 
+- epoch 6:
+  - title: Hopper and Joyce follow a lead
+    location: Indiana Road
+    characters: [Joyce, Hopper]
+
+- epoch 7:
+  - title: Analyzing the Monster
+    location: Wheeler Residence
+    characters: [Jonathan, Nancy]
+
+- epoch 8:
+  - title: AV Club Pitch
+    location: Clarke Residence
+    characters: [Agent Frazier, Mr. Clarke]
+
+- epoch 9:
+  - title: The Rule of Law
+    location: Wheeler Basement
+    characters: [Dustin, Mike]
+
+- epoch 10:
+  - title: "Flashback: Make Contact" 
+    location: Hawkins Labs
+    characters: [Eleven, Brenner]
+  - title: Eleven wakes in the woods
+    location: Hawkins Woods
+    characters: [Eleven]
+
+- epoch 11:
+  - title: Karen finds Nancy's room empty
+    location: Wheeler Residence
+    characters: [Karen, Ted, Holly]
+    
+- epoch 12:
+  - title: Eleven Steals Eggos
+    location: Bradley's Big Buy
+    characters: [Eleven]
+  - title: "Flashback: It's Calling You" 
+    location: Hawkins Labs, The Upside-Down
+    characters: [Eleven, Brenner]
+
+- epoch 13:
+  - title: Trying to Communicate with Terry
+    location: Ives Residence
+    characters: [Joyce, Hopper, Terry Ives, Becky Ives]
+       
+- epoch 14:
+  - title: Lucas heads toward the gate
+    location: Sinclair Residence
+    characters: [Lucas, Agent Repairman]
+  - title: Best Friends
+    location: Bradley's Big Buy
+    characters: [Mike, Dustin, Officer Powell, Officer Callahan, Eleven]
+    
+- epoch 15:
+  - title: Mind Experiments and Jane
+    location: Ives Residence
+    characters: [Joyce, Hopper, Becky Ives, Terry Ives]
+    
+- epoch 16:
+  - title: Perimeter Fence
+    location: Hawkins Woods
+    characters: [Lucas]
+    
+- epoch 17:
+  - title: Stocking up on Traps
+    location: Outdoor Store
+    characters: [Nancy, Jonathan]
+  - title: Steve and Jonathan Fight
+    location: Movie Theater
+    characters: [Nancy, Jonathan, Steve, Tommy, Carol, Officer Powell, Officer Callahan]    
+        
+- epoch 18:
+  - title: Hoping for a Chance
+    location: Ives Residence
+    characters: [Joyce, Hopper, Terry Ives, Becky Ives]
+
+- epoch 19:
+  - title: Crazy in Love
+    location: Hawkins Police Station
+    characters: [Flo,Nancy,Jonathan]
+
+- epoch 20:
+  - title: Lucas Connects the Dots
+    location: Hawkins Labs
+    characters: [Lucas]  
+  - title: Eleven Comes to the Rescue
+    location: Hawkins Quarry
+    characters: [Eleven, Mike, Dustin, Troy, James]
+  - title: "Flashback: Opening the Rift"
+    location: The Upside-Down, Hawkins Labs
+    characters: [Eleven, Brenner]
+
+- epoch 21:
+  - title: Heading Home
+    location: Wheeler Residence, Hawkins Labs
+    characters: [Eleven, Mike, Dustin, Agent Repairman, Lucas, Brenner]    
+       
