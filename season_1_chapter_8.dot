@@ -1,0 +1,502 @@
+// Chapter Eight: The Upside Down
+digraph {
+	center=1 randir=TB
+	edge [dir=none]
+	node [height=0.3 width=0.3]
+	subgraph timeline {
+		node [label="" style=invis]
+		edge [style=invis]
+		epoch_1 -> epoch_2
+		epoch_2 -> epoch_3
+		epoch_3 -> epoch_4
+		epoch_4 -> epoch_5
+		epoch_5 -> epoch_6
+		epoch_6 -> epoch_7
+		epoch_7 -> epoch_8
+		epoch_8 -> epoch_9
+		epoch_9 -> epoch_10
+		epoch_10 -> epoch_11
+		epoch_11 -> epoch_12
+		epoch_12 -> epoch_13
+		epoch_13 -> epoch_14
+		epoch_14 -> epoch_15
+	}
+	// Styles for Character Nodes
+	{
+		node [colorscheme=dark28 shape=box style=rounded]
+		edge [colorscheme=dark28]
+		{
+			node [color=1 label="Sara Hopper"]
+			edge [color=1]
+			Sara_Hopper_epoch_4_3 -> Sara_Hopper_epoch_8_1
+			Sara_Hopper_epoch_8_1 -> Sara_Hopper_epoch_10_6
+		}
+		{
+			node [color=2 label="Will Byers"]
+			edge [color=2]
+			Will_epoch_10_5 -> Will_epoch_12_0
+			Will_epoch_12_0 -> Will_epoch_13_0
+			Will_epoch_13_0 -> Will_epoch_13_1
+			Will_epoch_13_1 -> Will_epoch_15_0
+		}
+		{
+			node [color=3 label="Mike Wheeler"]
+			edge [color=3]
+			Mike_epoch_2_0 -> Mike_epoch_6_0
+			Mike_epoch_6_0 -> Mike_epoch_10_0
+			Mike_epoch_10_0 -> Mike_epoch_10_2
+			Mike_epoch_10_2 -> Mike_epoch_10_4
+			Mike_epoch_10_4 -> Mike_epoch_11_0
+			Mike_epoch_11_0 -> Mike_epoch_12_0
+			Mike_epoch_12_0 -> Mike_epoch_13_0
+		}
+		{
+			node [color=4 label="Lucas Sinclair"]
+			edge [color=4]
+			Lucas_epoch_2_0 -> Lucas_epoch_6_0
+			Lucas_epoch_6_0 -> Lucas_epoch_10_0
+			Lucas_epoch_10_0 -> Lucas_epoch_10_2
+			Lucas_epoch_10_2 -> Lucas_epoch_10_4
+			Lucas_epoch_10_4 -> Lucas_epoch_11_0
+			Lucas_epoch_11_0 -> Lucas_epoch_12_0
+			Lucas_epoch_12_0 -> Lucas_epoch_13_0
+		}
+		{
+			node [color=5 label="Officer Callahan"]
+			edge [color=5]
+			Officer_Callahan_epoch_14_0
+		}
+		{
+			node [color=6 label="Dr. Martin Brenner"]
+			edge [color=6]
+			Brenner_epoch_1_0 -> Brenner_epoch_4_0
+			Brenner_epoch_4_0 -> Brenner_epoch_4_1
+			Brenner_epoch_4_1 -> Brenner_epoch_10_0
+			Brenner_epoch_10_0 -> Brenner_epoch_10_2
+		}
+		{
+			node [color=7 label="Ted Wheeler"]
+			edge [color=7]
+			Ted_epoch_11_0 -> Ted_epoch_12_0
+			Ted_epoch_12_0 -> Ted_epoch_13_1
+		}
+		{
+			node [color=8 label="Diane Hopper"]
+			edge [color=8]
+			Diane_Hopper_epoch_4_3 -> Diane_Hopper_epoch_8_1
+			Diane_Hopper_epoch_8_1 -> Diane_Hopper_epoch_10_6
+		}
+		{
+			node [color=1 label="Jim Hopper"]
+			edge [color=1]
+			Hopper_epoch_1_1 -> Hopper_epoch_4_0
+			Hopper_epoch_4_0 -> Hopper_epoch_4_1
+			Hopper_epoch_4_1 -> Hopper_epoch_4_2
+			Hopper_epoch_4_2 -> Hopper_epoch_4_3
+			Hopper_epoch_4_3 -> Hopper_epoch_8_0
+			Hopper_epoch_8_0 -> Hopper_epoch_8_1
+			Hopper_epoch_8_1 -> Hopper_epoch_9_1
+			Hopper_epoch_9_1 -> Hopper_epoch_10_1
+			Hopper_epoch_10_1 -> Hopper_epoch_10_3
+			Hopper_epoch_10_3 -> Hopper_epoch_10_5
+			Hopper_epoch_10_5 -> Hopper_epoch_10_6
+			Hopper_epoch_10_6 -> Hopper_epoch_12_0
+			Hopper_epoch_12_0 -> Hopper_epoch_12_1
+			Hopper_epoch_12_1 -> Hopper_epoch_14_0
+			Hopper_epoch_14_0 -> Hopper_epoch_14_1
+		}
+		{
+			node [color=2 label="Agent Connie Frazier"]
+			edge [color=2]
+			Agent_Frazier_epoch_1_1 -> Agent_Frazier_epoch_10_0
+			Agent_Frazier_epoch_10_0 -> Agent_Frazier_epoch_10_2
+		}
+		{
+			node [color=3 label="Steve Harrington"]
+			edge [color=3]
+			Steve_epoch_7_0 -> Steve_epoch_9_0
+			Steve_epoch_9_0 -> Steve_epoch_9_1
+			Steve_epoch_9_1 -> Steve_epoch_12_0
+			Steve_epoch_12_0 -> Steve_epoch_13_1
+		}
+		{
+			node [color=4 label=Eleven]
+			edge [color=4]
+			Eleven_epoch_2_0 -> Eleven_epoch_6_0
+			Eleven_epoch_6_0 -> Eleven_epoch_10_0
+			Eleven_epoch_10_0 -> Eleven_epoch_10_2
+			Eleven_epoch_10_2 -> Eleven_epoch_10_4
+		}
+		{
+			node [color=5 label="Karen Wheeler"]
+			edge [color=5]
+			Karen_epoch_11_0 -> Karen_epoch_12_0
+			Karen_epoch_12_0 -> Karen_epoch_13_1
+		}
+		{
+			node [color=6 label="Officer Powell"]
+			edge [color=6]
+			Officer_Powell_epoch_14_0
+		}
+		{
+			node [color=7 label="The Monster"]
+			edge [color=7]
+			The_Monster_epoch_7_0 -> The_Monster_epoch_9_0
+			The_Monster_epoch_9_0 -> The_Monster_epoch_10_2
+		}
+		{
+			node [color=8 label="Nancy Wheeler"]
+			edge [color=8]
+			Nancy_epoch_3_0 -> Nancy_epoch_5_0
+			Nancy_epoch_5_0 -> Nancy_epoch_7_0
+			Nancy_epoch_7_0 -> Nancy_epoch_9_0
+			Nancy_epoch_9_0 -> Nancy_epoch_9_1
+			Nancy_epoch_9_1 -> Nancy_epoch_12_0
+			Nancy_epoch_12_0 -> Nancy_epoch_13_1
+		}
+		{
+			node [color=1 label="Joyce Byers"]
+			edge [color=1]
+			Joyce_epoch_1_0 -> Joyce_epoch_4_1
+			Joyce_epoch_4_1 -> Joyce_epoch_4_2
+			Joyce_epoch_4_2 -> Joyce_epoch_8_0
+			Joyce_epoch_8_0 -> Joyce_epoch_9_1
+			Joyce_epoch_9_1 -> Joyce_epoch_10_1
+			Joyce_epoch_10_1 -> Joyce_epoch_10_3
+			Joyce_epoch_10_3 -> Joyce_epoch_10_5
+			Joyce_epoch_10_5 -> Joyce_epoch_12_0
+			Joyce_epoch_12_0 -> Joyce_epoch_15_0
+		}
+		{
+			node [color=2 label=Florence]
+			edge [color=2]
+			Flo_epoch_14_0
+		}
+		{
+			node [color=3 label="Jonathan Byers"]
+			edge [color=3]
+			Jonathan_epoch_3_0 -> Jonathan_epoch_5_0
+			Jonathan_epoch_5_0 -> Jonathan_epoch_7_0
+			Jonathan_epoch_7_0 -> Jonathan_epoch_9_0
+			Jonathan_epoch_9_0 -> Jonathan_epoch_9_1
+			Jonathan_epoch_9_1 -> Jonathan_epoch_12_0
+			Jonathan_epoch_12_0 -> Jonathan_epoch_13_0
+			Jonathan_epoch_13_0 -> Jonathan_epoch_13_1
+			Jonathan_epoch_13_1 -> Jonathan_epoch_15_0
+		}
+		{
+			node [color=4 label="Dustin Henderson"]
+			edge [color=4]
+			Dustin_epoch_2_0 -> Dustin_epoch_6_0
+			Dustin_epoch_6_0 -> Dustin_epoch_10_0
+			Dustin_epoch_10_0 -> Dustin_epoch_10_2
+			Dustin_epoch_10_2 -> Dustin_epoch_10_4
+			Dustin_epoch_10_4 -> Dustin_epoch_11_0
+			Dustin_epoch_11_0 -> Dustin_epoch_12_0
+			Dustin_epoch_12_0 -> Dustin_epoch_13_0
+		}
+	}
+	subgraph cluster_epoch_1 {
+		graph [style=dotted]
+		epoch_1
+		subgraph cluster_epoch_1_0 {
+			graph [style=solid]
+			label="Hawkins Labs: Save your son"
+			Joyce_epoch_1_0
+			Brenner_epoch_1_0
+		}
+		subgraph cluster_epoch_1_1 {
+			graph [style=solid]
+			label="Hawkins Labs: Hopper is interrogated"
+			Hopper_epoch_1_1
+			Agent_Frazier_epoch_1_1
+		}
+	}
+	subgraph cluster_epoch_2 {
+		graph [style=dotted]
+		epoch_2
+		subgraph cluster_epoch_2_0 {
+			graph [style=solid]
+			label="Hawkins Middle School: Waiting at the
+middle school"
+			Mike_epoch_2_0
+			Lucas_epoch_2_0
+			Dustin_epoch_2_0
+			Eleven_epoch_2_0
+		}
+	}
+	subgraph cluster_epoch_3 {
+		graph [style=dotted]
+		epoch_3
+		subgraph cluster_epoch_3_0 {
+			graph [style=solid]
+			label="Byers Residence: Setting a trap"
+			Jonathan_epoch_3_0
+			Nancy_epoch_3_0
+		}
+	}
+	subgraph cluster_epoch_4 {
+		graph [style=dotted]
+		epoch_4
+		subgraph cluster_epoch_4_0 {
+			graph [style=solid]
+			label="Hawkins Lab: Hopper makes a deal"
+			Hopper_epoch_4_0
+			Brenner_epoch_4_0
+		}
+		subgraph cluster_epoch_4_1 {
+			graph [style=solid]
+			label="Hawkins Lab: Entering the rift"
+			Hopper_epoch_4_1
+			Brenner_epoch_4_1
+			Joyce_epoch_4_1
+		}
+		subgraph cluster_epoch_4_2 {
+			graph [style=solid]
+			label="The Upside Down: In the Upside Down"
+			Hopper_epoch_4_2
+			Joyce_epoch_4_2
+		}
+		subgraph cluster_epoch_4_3 {
+			graph [style=solid]
+			label="City Playground: Flashback: At the
+playground"
+			Hopper_epoch_4_3
+			Sara_Hopper_epoch_4_3
+			Diane_Hopper_epoch_4_3
+		}
+	}
+	subgraph cluster_epoch_5 {
+		graph [style=dotted]
+		epoch_5
+		subgraph cluster_epoch_5_0 {
+			graph [style=solid]
+			label="Byers Residence: Final Preparations"
+			Nancy_epoch_5_0
+			Jonathan_epoch_5_0
+		}
+	}
+	subgraph cluster_epoch_6 {
+		graph [style=dotted]
+		epoch_6
+		subgraph cluster_epoch_6_0 {
+			graph [style=solid]
+			label="Hawkins Middle School: Strategizing"
+			Mike_epoch_6_0
+			Lucas_epoch_6_0
+			Dustin_epoch_6_0
+			Eleven_epoch_6_0
+		}
+	}
+	subgraph cluster_epoch_7 {
+		graph [style=dotted]
+		epoch_7
+		subgraph cluster_epoch_7_0 {
+			graph [style=solid]
+			label="Byers Residence: Steve interrupts the
+hunt"
+			Steve_epoch_7_0
+			Nancy_epoch_7_0
+			Jonathan_epoch_7_0
+			The_Monster_epoch_7_0
+		}
+	}
+	subgraph cluster_epoch_8 {
+		graph [style=dotted]
+		epoch_8
+		subgraph cluster_epoch_8_0 {
+			graph [style=solid]
+			label="The Upside Down: Hopper and Joyce search
+for Will"
+			Joyce_epoch_8_0
+			Hopper_epoch_8_0
+		}
+		subgraph cluster_epoch_8_1 {
+			graph [style=solid]
+			label="City Hospital: Flashback: In the
+hospital"
+			Hopper_epoch_8_1
+			Sara_Hopper_epoch_8_1
+			Diane_Hopper_epoch_8_1
+		}
+	}
+	subgraph cluster_epoch_9 {
+		graph [style=dotted]
+		epoch_9
+		subgraph cluster_epoch_9_0 {
+			graph [style=solid]
+			label="Byers Residence: Trapping the Monster"
+			Jonathan_epoch_9_0
+			Nancy_epoch_9_0
+			Steve_epoch_9_0
+			The_Monster_epoch_9_0
+		}
+		subgraph cluster_epoch_9_1 {
+			graph [style=solid]
+			label="The Upside Down, Byers Residence:
+Arriving at the house in the Upside Down"
+			Jonathan_epoch_9_1
+			Nancy_epoch_9_1
+			Steve_epoch_9_1
+			Joyce_epoch_9_1
+			Hopper_epoch_9_1
+		}
+	}
+	subgraph cluster_epoch_10 {
+		graph [style=dotted]
+		epoch_10
+		subgraph cluster_epoch_10_0 {
+			graph [style=solid]
+			label="Hawkins Middle School: Mike and Eleven
+kiss. The authorities arrive."
+			Mike_epoch_10_0
+			Lucas_epoch_10_0
+			Dustin_epoch_10_0
+			Eleven_epoch_10_0
+			Brenner_epoch_10_0
+			Agent_Frazier_epoch_10_0
+		}
+		subgraph cluster_epoch_10_1 {
+			graph [style=solid]
+			label="The Upside Down: At the library,
+searching for Will"
+			Hopper_epoch_10_1
+			Joyce_epoch_10_1
+		}
+		subgraph cluster_epoch_10_2 {
+			graph [style=solid]
+			label="Hawkins Middle School: Eleven kills
+Frazier and the men with guns. The
+Monster gets Brenner."
+			Mike_epoch_10_2
+			Lucas_epoch_10_2
+			Dustin_epoch_10_2
+			Eleven_epoch_10_2
+			Brenner_epoch_10_2
+			Agent_Frazier_epoch_10_2
+			The_Monster_epoch_10_2
+		}
+		subgraph cluster_epoch_10_3 {
+			graph [style=solid]
+			label="The Upside Down: Hopper and Joyce Find
+Bodies"
+			Hopper_epoch_10_3
+			Joyce_epoch_10_3
+		}
+		subgraph cluster_epoch_10_4 {
+			graph [style=solid]
+			label="Hawkins Middle School: Eleven finishes
+the Monster and disappears"
+			Mike_epoch_10_4
+			Lucas_epoch_10_4
+			Dustin_epoch_10_4
+			Eleven_epoch_10_4
+		}
+		subgraph cluster_epoch_10_5 {
+			graph [style=solid]
+			label="The Upside Down: Hopper resuscitates
+Will"
+			Joyce_epoch_10_5
+			Hopper_epoch_10_5
+			Will_epoch_10_5
+		}
+		subgraph cluster_epoch_10_6 {
+			graph [style=solid]
+			label="City Hospital: Flashback: Losing a Child"
+			Hopper_epoch_10_6
+			Sara_Hopper_epoch_10_6
+			Diane_Hopper_epoch_10_6
+		}
+	}
+	subgraph cluster_epoch_11 {
+		graph [style=dotted]
+		epoch_11
+		subgraph cluster_epoch_11_0 {
+			graph [style=solid]
+			label="Hawkins Middle School: The Police Arrive"
+			Dustin_epoch_11_0
+			Mike_epoch_11_0
+			Lucas_epoch_11_0
+			Karen_epoch_11_0
+			Ted_epoch_11_0
+		}
+	}
+	subgraph cluster_epoch_12 {
+		graph [style=dotted]
+		epoch_12
+		subgraph cluster_epoch_12_0 {
+			graph [style=solid]
+			label="Hawkins Hospital: Will in the Hospital"
+			Will_epoch_12_0
+			Joyce_epoch_12_0
+			Jonathan_epoch_12_0
+			Hopper_epoch_12_0
+			Ted_epoch_12_0
+			Steve_epoch_12_0
+			Karen_epoch_12_0
+			Nancy_epoch_12_0
+			Dustin_epoch_12_0
+			Lucas_epoch_12_0
+			Mike_epoch_12_0
+		}
+		subgraph cluster_epoch_12_1 {
+			graph [style=solid]
+			label="Hawkins Hospital: The authorities pick
+up Hopper"
+			Hopper_epoch_12_1
+		}
+	}
+	subgraph cluster_epoch_13 {
+		graph [style=dotted]
+		epoch_13
+		subgraph cluster_epoch_13_0 {
+			graph [style=solid]
+			label="Wheeler Basement: Dungeons and Dragons"
+			Mike_epoch_13_0
+			Dustin_epoch_13_0
+			Lucas_epoch_13_0
+			Will_epoch_13_0
+			Jonathan_epoch_13_0
+		}
+		subgraph cluster_epoch_13_1 {
+			graph [style=solid]
+			label="Wheeler Residence: A present for
+Jonathan"
+			Will_epoch_13_1
+			Jonathan_epoch_13_1
+			Ted_epoch_13_1
+			Karen_epoch_13_1
+			Nancy_epoch_13_1
+			Steve_epoch_13_1
+		}
+	}
+	subgraph cluster_epoch_14 {
+		graph [style=dotted]
+		epoch_14
+		subgraph cluster_epoch_14_0 {
+			graph [style=solid]
+			label="Hawkins Police Department: Christmas
+Party"
+			Hopper_epoch_14_0
+			Flo_epoch_14_0
+			Officer_Powell_epoch_14_0
+			Officer_Callahan_epoch_14_0
+		}
+		subgraph cluster_epoch_14_1 {
+			graph [style=solid]
+			label="Hawkins Woods: Leaving Eggos"
+			Hopper_epoch_14_1
+		}
+	}
+	subgraph cluster_epoch_15 {
+		graph [style=dotted]
+		epoch_15
+		subgraph cluster_epoch_15_0 {
+			graph [style=solid]
+			label="Byers Residence: Regurgitating Evidence"
+			Joyce_epoch_15_0
+			Jonathan_epoch_15_0
+			Will_epoch_15_0
+		}
+	}
+}

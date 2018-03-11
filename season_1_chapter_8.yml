@@ -1,0 +1,126 @@
+series: Stranger Things
+title: 'Chapter Eight: The Upside Down'
+season: 1
+episode: 8
+scenes:
+
+- epoch 1:
+  - title: Save your son
+    location: Hawkins Labs
+    characters: [Joyce, Brenner] 
+  - title: Hopper is interrogated
+    location: Hawkins Labs
+    characters: [Hopper, Agent Frazier]
+
+- epoch 2:
+  - title: Waiting at the middle school
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven]
+
+- epoch 3:
+  - title: Setting a trap
+    location: Byers Residence
+    characters: [Jonathan, Nancy]
+
+- epoch 4:
+  - title: Hopper makes a deal
+    location: Hawkins Lab
+    characters: [Hopper, Brenner]
+  - title: Entering the rift
+    location: Hawkins Lab
+    characters: [Hopper, Brenner, Joyce]
+  - title: In the Upside Down
+    location: The Upside Down
+    characters: [Hopper, Joyce]
+  - title: "Flashback: At the playground"
+    location: City Playground
+    characters: [Hopper, Sara Hopper, Diane Hopper]
+
+- epoch 5:
+  - title: Final Preparations
+    location: Byers Residence
+    characters: [Nancy, Jonathan]
+
+- epoch 6:
+  - title: Strategizing
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven]
+
+- epoch 7:
+  - title: Steve interrupts the hunt
+    location: Byers Residence
+    characters: [Steve, Nancy, Jonathan, The Monster]
+ 
+- epoch 8:
+  - title: Hopper and Joyce search for Will
+    location: The Upside Down
+    characters: [Joyce, Hopper]
+  - title: "Flashback: In the hospital"
+    location: City Hospital
+    characters: [Hopper, Sara Hopper, Diane Hopper]
+
+- epoch 9:
+  - title: Trapping the Monster
+    location: Byers Residence
+    characters: [Jonathan, Nancy, Steve, The Monster]
+  - title: Arriving at the house in the Upside Down
+    location: The Upside Down, Byers Residence
+    characters: [Jonathan, Nancy, Steve, Joyce, Hopper]
+
+- epoch 10:
+  - title: Mike and Eleven kiss. The authorities arrive.
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven, Brenner, Agent Frazier]
+  - title: At the library, searching for Will
+    location: The Upside Down
+    characters: [Hopper, Joyce]
+  - title: Eleven kills Frazier and the men with guns. The Monster gets Brenner.
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven, Brenner, Agent Frazier, The Monster]
+  - title: Hopper and Joyce Find Bodies
+    location: The Upside Down
+    characters: [Hopper, Joyce]
+  - title: Eleven finishes the Monster and disappears
+    location: Hawkins Middle School
+    characters: [Mike, Lucas, Dustin, Eleven]
+  - title: Hopper resuscitates Will
+    location: The Upside Down
+    characters: [Joyce, Hopper, Will]
+  - title: "Flashback: Losing a Child"
+    location: City Hospital
+    characters: [Hopper, Sara Hopper, Diane Hopper]
+
+- epoch 11:
+  - title: The Police Arrive
+    location: Hawkins Middle School
+    characters: [Dustin, Mike, Lucas, Karen, Ted]
+
+- epoch 12:
+  - title: Will in the Hospital
+    location: Hawkins Hospital
+    characters: [Will, Joyce, Jonathan, Hopper, Ted, Steve, Karen, Nancy, Dustin, Lucas, Mike]
+  - title: The authorities pick up Hopper
+    location: Hawkins Hospital
+    characters: [Hopper]
+
+- epoch 13:
+  - title: Dungeons and Dragons
+    location: Wheeler Basement
+    characters: [Mike, Dustin, Lucas, Will, Jonathan]
+  - title: A present for Jonathan
+    location: Wheeler Residence
+    characters: [Will, Jonathan, Ted, Karen, Nancy, Steve]
+    
+- epoch 14:
+  - title: Christmas Party
+    location: Hawkins Police Department
+    characters: [Hopper, Flo, Officer Powell, Officer Callahan]
+  - title: Leaving Eggos 
+    location: Hawkins Woods
+    characters: [Hopper]
+
+- epoch 15:
+  - title: Regurgitating Evidence
+    location: Byers Residence
+    characters: [Joyce, Jonathan, Will]
+       
