@@ -51,7 +51,7 @@ scenes:
 - epoch 8:
   - title: Advance Pay
     location: Store
-    characters: [Joyce]
+    characters: [Joyce, Donald Melvald]
 
 - epoch 9:
   - title: Searching the Byers' House
